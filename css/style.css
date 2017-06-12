@@ -1,9 +1,9 @@
 
 /* Header */
 .header {
-	line-height: 33px;
-	height: 90px;
-	padding: 25px 0;
+	line-height: 35px;
+	height: 40px;
+	padding: 15px 0;
 	background: #fff;
 	border-top: 5px solid #ed76ea;
 	text-align: center;
@@ -15,7 +15,23 @@
 	margin-bottom: 5px;
 	margin-top: 0;
 }
-.header .social a {
+
+/* Footer */
+.footer {
+	background: #fff;
+	line-height: 33px;
+	height: 40px;
+	padding: 15px 0;
+	bottom: 0px;
+}
+.footer p {
+	padding-left: 30px;
+}
+
+.footer ul {
+	float: right;
+}
+.footer .social a {
 	background: #49515a;
 	width: 30px;
 	height: 30px;
@@ -28,16 +44,16 @@
 	border-radius: 50%;
 	color: #fff;
 }
-.header .social a:hover {
+.footer .social a:hover {
 	background: #778492;
 }
-.header .social a .fa {
+.footer .social a .fa {
 	font-size: 20px;
 }
 .list-inline > li {
 	display: inline-block;
 	padding-right: 5px;
-	padding-left: 5px;
+	padding-left: 5px;	
 }
 
 
