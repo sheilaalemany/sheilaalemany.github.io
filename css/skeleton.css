@@ -124,7 +124,8 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background: #e1eff4;
   color: #222; }
 
 
@@ -286,7 +287,7 @@ label > .label-body {
 
 
 /* Lists
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+––––––––––––––––––––––––––––––––––––––––––––––––––
 ul {
   list-style: circle inside; }
 ol {
@@ -301,7 +302,7 @@ ol ul {
   margin: 1.5rem 0 1.5rem 3rem;
   font-size: 90%; }
 li {
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem; } */
 
 
 /* Code
