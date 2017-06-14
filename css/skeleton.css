@@ -7,7 +7,6 @@
 * 12/29/2014
 */
 
-
 /* Table of contents
 ––––––––––––––––––––––––––––––––––––––––––––––––––
 - Grid
@@ -24,7 +23,6 @@
 - Clearing
 - Media Queries
 */
-
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -112,7 +110,6 @@
 
 }
 
-
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* NOTE
@@ -128,12 +125,12 @@ body {
   background: #e1eff4;
   color: #222; }
 
-
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 2rem;
+  font-family: 'Sacramento', cursive;
   font-weight: 300; }
 h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
 h2 { font-size: 3.6rem; line-height: 1.25; letter-spacing: -.1rem; }
