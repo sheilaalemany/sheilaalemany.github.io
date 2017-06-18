@@ -42,6 +42,8 @@
     font-size: 18px;
 }
 .section img {
+    margin-top: 10px;
+    margin-bottom: 10px;
 	width: 80px;
 	position: relative;
 	display: inline-block;
