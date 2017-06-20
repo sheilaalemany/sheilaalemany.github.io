@@ -55,11 +55,13 @@
     margin-left: 4%; }
   .column:first-child,
   .columns:first-child {
-    margin-left: 0; }
+    margin-left: 10px; }
 
   .one.column,
   .one.columns                    { width: 4.66666666667%; }
-  .two.columns                    { width: 13.3333333333%; }
+  .two.columns { 
+	  width: 10%;
+  	  text-align: center; }
   .three.columns                  { width: 22%;            }
   .four.columns                   { width: 30.6666666667%; }
   .five.columns                   { width: 39.3333333333%; }
@@ -67,7 +69,7 @@
   .seven.columns                  { width: 56.6666666667%; }
   .eight.columns                  { width: 65.3333333333%; }
   .nine.columns                   { width: 74.0%;          }
-  .ten.columns                    { width: 82.6666666667%; }
+  .ten.columns                    { width: 84%; }
   .eleven.columns                 { width: 91.3333333333%; }
   .twelve.columns                 { width: 100%; margin-left: 0; }
 
@@ -279,26 +281,6 @@ label > .label-body {
   display: inline-block;
   margin-left: .5rem;
   font-weight: normal; }
-
-
-/* Lists
-––––––––––––––––––––––––––––––––––––––––––––––––––
-ul {
-  list-style: circle inside; }
-ol {
-  list-style: decimal inside; }
-ol, ul {
-  padding-left: 0;
-  margin-top: 0; }
-ul ul,
-ul ol,
-ol ol,
-ol ul {
-  margin: 1.5rem 0 1.5rem 3rem;
-  font-size: 90%; }
-li {
-  margin-bottom: 1rem; } */
-
 
 /* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
