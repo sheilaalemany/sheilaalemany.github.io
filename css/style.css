@@ -237,6 +237,7 @@ hr.style11 {
 	margin-right: 2em;
 }
 .research h4 {
+	text-align: justify;
 	font-size: 1.2em;
 	font-weight: 400;
 }
@@ -357,7 +358,11 @@ hr.style11 {
 
 /*-- Responsive --*/
 @media(max-width:900px) {
+	
 	/*-- All Sections --*/
+	h1,h2,h3,h4,h5,h6 {
+		text-align: center;
+	}
 	.section {
 	    padding-left: 5em;
 		padding-right: 5em;
@@ -371,5 +376,11 @@ hr.style11 {
 		margin-bottom: 5px;
 	}
 	/*-- //All Sections --*/
+	
+	/*-- About --*/
+	.profile-picture {
+		float: center;
+	}
+	/*-- //About --*/
 }
 /*-- //Responsive --*/
