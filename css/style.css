@@ -213,16 +213,19 @@ hr.style11 {
 	float: center;
 }
 .work .work-info a { 
-	overflow: hidden; 
+	overflow: visible; 
 }
 .work .work-info a img { 
+	margin-bottom: 20px;
     transition: all 0.5s; 
     -moz-transition: all 0.5s; 
     -webkit-transition: all 0.5s; 
     -o-transition: all 0.5s; 
 }
 .work .work-info a.zoom:hover img { 
-	width: 120px;
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
 	background-color: white;
 	opacity: 0.5;
 }   
