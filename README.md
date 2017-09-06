@@ -1,2 +1,2 @@
-# sheilaalemany.github.io (not done yet)
-Personal website implementation using HTML, CSS, and JavaScript
+# sheilaalemany.github.io
+Personal website currently under construction. 
