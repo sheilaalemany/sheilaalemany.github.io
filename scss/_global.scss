@@ -5,6 +5,13 @@ body {
   padding-top: 54px;
   color: $gray-600;
 }
+
+@media (max-width: 400px) {
+	body {
+		text-align:center;
+	}
+}
+
 @media (min-width: 992px) {
   body {
     padding-top: 0;
