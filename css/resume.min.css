@@ -114,6 +114,11 @@ section.resume-section .resume-item .resume-date{
 .text-primary{
     color:#38bdb4!important
 }
+.btn-primary {
+	background-color:#38bdb4!important;
+	border: none;
+	text-transform:uppercase
+}
 a{
     color:#38bdb4
 }
