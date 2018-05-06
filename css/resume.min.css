@@ -8,19 +8,19 @@ body{
         padding-top:0;
         padding-left:17rem
     }
+    h1{
+        font-size:6rem;
+        line-height:5.5rem
+    }
+    h2{
+        font-size:3.5rem
+    }
 }
 h1,h2,h3,h4,h5,h6{
     font-family: 'Montserrat', sans-serif;
     font-weight:700;
     text-transform:uppercase;
     color:#343a40
-}
-h1{
-    font-size:6rem;
-    line-height:5.5rem
-}
-h2{
-    font-size:3.5rem
 }
 .subheading{
     text-transform:uppercase;
@@ -120,4 +120,3 @@ a{
 a:active,a:focus,a:hover{
     color:#824027
 }
- 
