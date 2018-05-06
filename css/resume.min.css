@@ -119,6 +119,17 @@ section.resume-section .resume-item .resume-date{
 	border: none;
 	text-transform:uppercase
 }
+
+.img-fluid {
+    position: relative;
+    float: left;
+    width:  700px;
+    height: 300px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
 a{
     color:#38bdb4
 }
