@@ -18,6 +18,11 @@ body{
   background-color: #2b8780!important;
 }
 
+.col-sm-6 {
+	width: 100%;
+	text-align: center;
+}
+
 .carousel-inner > .carousel-item > img{
 margin:auto;
 width:100;
