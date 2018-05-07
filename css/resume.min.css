@@ -4,7 +4,7 @@ body{
     color:#868e96;
 }
 .img-fluid {
-/*    width:  500px;*/
+    width:  100%;
     height: 300px;
 }
 
