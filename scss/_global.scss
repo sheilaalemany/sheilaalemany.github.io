@@ -6,13 +6,15 @@ body {
   color: $gray-600;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
 	body {
-		text-align:center;
+		text-align: center;
 	}
-	.col-md-6 {
-		width:100%;
-		text-align:center;
+	.float-center {
+	  float: right;
+	  position: relative;
+	  left: -50%; /* or right 50% */
+	  text-align: left;
 	}
 }
 
@@ -51,6 +53,7 @@ h6 {
     }
     .fa-lg {
       font-size: 1.75rem;
+	  margin: auto;
     }
   }
 }

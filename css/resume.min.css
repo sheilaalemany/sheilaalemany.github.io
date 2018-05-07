@@ -4,7 +4,7 @@ body{
     color:#868e96;
 }
 .img-fluid {
-    width:  500px;
+/*    width:  500px;*/
     height: 300px;
 }
 
@@ -18,15 +18,9 @@ body{
   background-color: #2b8780!important;
 }
 
-.col-sm-6 {
-	width: 100%;
-	text-align: center;
-}
-
 .carousel-inner > .carousel-item > img{
-margin:auto;
-width:100;
-
+	margin: auto;
+	width: 100;
 }
 
 .carousel-caption {
@@ -49,7 +43,7 @@ width:100;
 	padding-bottom: 20pt;
 }
 
-@media (min-width:850px){
+@media (min-width:992px){
     body{
         padding-top:0;
         padding-left:17rem
@@ -140,7 +134,7 @@ section.resume-section{
 section.resume-section .resume-item .resume-date{
     min-width:none
 }
-@media (min-width:768px){
+@media (min-width:992px){
     section.resume-section{
         min-height:100vh
     }
