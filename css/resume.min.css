@@ -4,7 +4,7 @@ body{
     color:#868e96;
 }
 .img-fluid {
-    width:  100%;
+    width:  500px;
     height: 300px;
 }
 
@@ -93,7 +93,7 @@ h1,h2,h3,h4,h5,h6{
     font-weight:600;
     text-transform:uppercase
 }
-@media (min-width:850px){
+@media (min-width:992px){
     #sideNav{
         text-align:center;
         position:fixed;
@@ -140,7 +140,7 @@ section.resume-section{
 section.resume-section .resume-item .resume-date{
     min-width:none
 }
-@media (min-width:760px){
+@media (min-width:768px){
     section.resume-section{
         min-height:100vh
     }
@@ -148,7 +148,7 @@ section.resume-section .resume-item .resume-date{
         min-width:18rem
     }
 }
-@media (min-width:850px){
+@media (min-width:992px){
     section.resume-section{
         padding-top:3rem!important;
         padding-bottom:3rem!important
