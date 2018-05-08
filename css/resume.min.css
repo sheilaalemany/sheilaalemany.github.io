@@ -11,12 +11,12 @@
 	display: block!important;
    }
    .h1-sheils{
-       font-size:3.4rem;
+       font-size:3.5rem;
        line-height:5.5rem
    }
    .h2-sheils{
-       font-size:2.4rem;
-       line-height:5.5rem
+       font-size:2.5rem;
+/*       line-height:4.5rem*/
    }
 }
 
