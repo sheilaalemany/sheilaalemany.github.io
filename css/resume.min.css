@@ -1,12 +1,14 @@
+@media only screen and (max-width:500px){
+	.container-fluid {
+		text-align:center!important;
+	}
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
     padding-top:54px;
     color:#868e96;
 }
-
-/*img {
-	object-fit: contain;
-}*/
 .img-fluid {
     width:  100%;
     height: 300px;
