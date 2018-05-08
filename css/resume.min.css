@@ -1,7 +1,15 @@
-@media only screen and (max-width:500px){
-	.container-fluid {
+/*@media only screen and (max-width:500px){
+	.row {
 		text-align:center!important;
+		display: block;
 	}
+}*/
+
+@media only screen and (max-width: 768px){
+   .center-sheils {
+	text-align:center!important;
+	display: block!important;
+   }
 }
 
 body{
@@ -12,6 +20,11 @@ body{
 .img-fluid {
     width:  100%;
     height: 300px;
+}
+
+.navbar-nav {
+	text-align:center!important;
+	display: block!important;
 }
 
 .btn-primary {
