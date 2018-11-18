@@ -432,7 +432,7 @@ ul.sublist {
 }
 
 .logo img {
-height: 40px;
+height: 35px;
 }
 
 a>span.site-name{
@@ -1432,7 +1432,7 @@ ul.sub-menu li a {
     margin-top: 60px
 }
 .history-wrapper h4 {
-    font-family: 'Ubuntu';
+    font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
     line-height: 24px;
 }
