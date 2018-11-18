@@ -14,7 +14,7 @@
     /* =Preloader
     /* =Header
     /* =Full Width Slider
-    /* =Architecure Slider 
+    /* =Architecure Slider
     /* =Menu right
     /* =Home Content
     /* =Architecture Content
@@ -91,7 +91,7 @@ body {
 }
 :-moz-placeholder {
     /* Firefox 18- */
-    
+
     color: #787878;
     font-size: 14px;
     letter-spacing: 1pt;
@@ -99,7 +99,7 @@ body {
 }
 ::-moz-placeholder {
     /* Firefox 19+ */
-    
+
     color: #787878;
     font-size: 14px;
     letter-spacing: 1pt;
@@ -862,7 +862,7 @@ span.border-text {
     font-weight: 400;
 }
 
-/* =Architecure Slider 
+/* =Architecure Slider
 -------------------------------------------------------------- */
 .arch-slider {
     position: relative;
@@ -1031,7 +1031,7 @@ span.border-text {
     transition-delay: 0.15s;
 }
 .search-wrap.open input:focus {
-    border:0; 
+    border:0;
 }
 .search-wrap.open ::-webkit-input-placeholder {
     font-size: 12px;
@@ -1423,7 +1423,7 @@ ul.sub-menu li a {
 
 .menu-wrap-2 ul{
     padding:0;
-    margin-bottom:0; 
+    margin-bottom:0;
 }
 
 .menu-wrap-2 ul li{
@@ -1978,7 +1978,7 @@ ul.client-thumb-2 li a img:hover{
     height: 100%;
     padding: 45px;
     z-index: 4;
-    cursor: url(../img/cursor.png), auto;
+    cursor: url(../img/cursor.png) 35 35, auto;
 }
 .img .overlay-thumb {
     position: absolute;
@@ -2473,7 +2473,7 @@ ul.social-buttons li {
 }
 
 /*Play Button*/
-.playBut { 
+.playBut {
     display: inline-block;
     -webkit-transition: all 0.5s ease;
     background-color: rgba(255, 255, 255, 0.79);
