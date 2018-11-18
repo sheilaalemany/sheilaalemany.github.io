@@ -22,6 +22,8 @@ window.onload = function(){
           projectDescription.innerHTML = project["description"];
           projectImage1 = document.getElementById("project-image-1");
           projectImage1.src = project["image1"];
+          projectImage2 = document.getElementById("project-image-2");
+          projectImage2.src = project["image2"];
           projectInfoTable = document.getElementById("project-info-table");
           for (var property in project["tableValues"]) {
               if (project["tableValues"].hasOwnProperty(property)) {
