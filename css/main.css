@@ -205,6 +205,14 @@ ul.sublist {
 }
 /* =General
 -------------------------------------------------------------- */
+.center-stuff {
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
 
 .clearfix {
     clear: both;
@@ -271,7 +279,7 @@ ul.sublist {
 .second-title hr {
     width: 22px;
     height: 2px;
-    background: #56c8d4;
+    background: #000000;
     float: left;
 }
 .second-title .slogan {
