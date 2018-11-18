@@ -111,7 +111,7 @@ body {
 -------------------------------------------------------------- */
 
 a {
-    color: #383838;
+    color: #4A33E6;
     transition: all 0.5s;
 }
 a:focus {
@@ -119,8 +119,8 @@ a:focus {
 }
 a:hover,
 a:focus {
-    color: #000000;
-    text-decoration: none;
+    color: #2CDFCB;
+    text-decoration: underline;
 }
 a,
 a:visited {
