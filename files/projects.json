@@ -3,11 +3,24 @@
     "title": "Deep Learning for Hurricane Forecasting",
     "description": "In Fall of 2017, I was the Artificial Intelligence Project Lead for Upsilon Pi Epsilon's SparkDev program. The project consisted of predicting the trajectory paths of hurricanes using a recurrent neural network (RNN). I lead a group of six students to complete this project in nine weeks using Python and Keras API.\n\nUpon completion of the project, I decided to pursue this as an independent research project. With the ever-evolving field of artificial intelligence and the sporadic behavior of hurricane trajectories, we utilized a fine grid along with a recurrent neural network to learn the nonlinear response of hurricane trajectories. As first author, I was able to present at a seminar for the National Oceanic and Atmospheric Administration’s (NOAA) National Hurricane Center (NHC). Following positive feedback from the NOAA scientists, we successfully published <a href=''>\"Predicting Hurricane Trajectories using a Recurrent Neural Network\"</a> to the <a href=''>2019 Association for the Advancement of Artificial Intelligence (AAAI)</a> conference under the applied artificial intelligence track to introduce deep learning as a way to enhance the environmental forecasting techniques employed by NHC for more accurate predictions.",
     "tableValues": {
-      "when": "Fall 2017 to Fall 2018",
-      "where": "Florida International University",
-      "who": "Upsilon Pi Epsilon's SparkDev/Independent Research",
-      "code": "<a href=\"https://github.com/sheilaalemany/hurricane-rnn\">github.com/sheilaalemany/hurricane-rnn</a>",
-      "slides": "<a href=\"files/SHEILA_NOAA_presentation.pdf\">Here they are!</a>"
+	"Slides": "<a href=\"files/SHEILA_NOAA_presentation.pdf\">Here they are!</a>",
+	"Code": "<a href=\"https://github.com/sheilaalemany/hurricane-rnn\">github.com/sheilaalemany/hurricane-rnn</a>",
+	"Who": "Upsilon Pi Epsilon's SparkDev/Independent Research",
+	"Where": "Florida International University",
+    "When": "Fall 2017 to Fall 2018"
+    },
+    "image1": "img/latest/image1_1.jpg"
+  }
+}
+
+{
+  "mitlincolnlab":{
+    "title": "MIT Lincoln Laboratory",
+    "description": "Conducted exploratory data analysis to assist in the process of improving machine learning approaches that predict cyber-attacks. Contributed to the existing set of metrics by proposing new evaluation techniques that use statistical methods, natural language processing, and clustering techniques. (Advisors: Dr. Joseph Zipkin and Dr. Amy Hughes)",
+    "tableValues": {
+	"What": "Cyber Analytics + Decision Systems Research Internship",
+	"Where": "MIT Lincoln Lab",
+    "When": "Summer 2018"
     },
     "image1": "img/latest/image1_1.jpg"
   }
