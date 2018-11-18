@@ -10,10 +10,7 @@
     "When": "Fall 2017 to Fall 2018"
     },
     "image1": "img/latest/image1_1.jpg"
-  }
-}
-
-{
+  },
   "mitlincolnlab":{
     "title": "MIT Lincoln Laboratory",
     "description": "Conducted exploratory data analysis to assist in the process of improving machine learning approaches that predict cyber-attacks. Contributed to the existing set of metrics by proposing new evaluation techniques that use statistical methods, natural language processing, and clustering techniques. (Advisors: Dr. Joseph Zipkin and Dr. Amy Hughes)",
