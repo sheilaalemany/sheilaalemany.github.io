@@ -229,6 +229,9 @@ ul.sublist {
 .margin-top {
     margin-top: 100px;
 }
+.small-margin {
+    margin-top: 20px;
+}
 .margin-bottom {
     margin-bottom: 100px;
 }
