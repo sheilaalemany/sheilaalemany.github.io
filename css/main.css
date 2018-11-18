@@ -31,16 +31,12 @@
 -------------------------------------------------------------- */
 
 @font-face {
-    font-family: 'azedobold';
-    src: url('../fonts/azedo-bold-webfont.eot');
-    src: url('../fonts/azedo-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/azedo-bold-webfont.woff2') format('woff2'), url('../fonts/azedo-bold-webfont.woff') format('woff'), url('../fonts/azedo-bold-webfont.ttf') format('truetype'), url('../fonts/azedo-bold-webfont.svg#azedobold') format('svg');
+    font-family: 'Lekton', sans-serif;
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: 'azedolight';
-    src: url('../fonts/azedo-light-webfont.eot');
-    src: url('../fonts/azedo-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/azedo-light-webfont.woff2') format('woff2'), url('../fonts/azedo-light-webfont.woff') format('woff'), url('../fonts/azedo-light-webfont.ttf') format('truetype'), url('../fonts/azedo-light-webfont.svg#azedolight') format('svg');
+    font-family: 'Lekton', sans-serif;
     font-weight: normal;
     font-style: normal;
 }
@@ -493,12 +489,12 @@ a:hover>span.site-name{
     margin-left: 6%;
 }
 .slider-description-inner h1 {
-    font-family: 'azedobold';
+    font-family: 'Lekton', sans-serif;
     font-size: 60px;
     letter-spacing: 8px;
 }
 .slider-description-inner h1 span {
-    font-family: 'azedolight';
+    font-family: 'Lekton', sans-serif;
     background: #000000;
     padding: 22px;
     font-weight: 100;
@@ -586,7 +582,7 @@ a:hover>span.site-name{
 .header-page .inner-content .header-content h1 {
     text-align: center;
     font-size: 60px;
-    font-family: 'azedobold', sans-serif;
+    font-family: 'Lekton', sans-serif;
 }
 .header-page .inner-content .header-content hr {
     float: none;
@@ -835,7 +831,7 @@ svg {
 }
 .slide__text-heading {
     font-size: 48px;
-    font-family: 'azedobold';
+    font-family: 'Lekton', sans-serif;
     text-transform: uppercase;
     font-weight: 800;
     dispay: block;
@@ -845,7 +841,7 @@ svg {
     letter-spacing: 4.5pt;
 }
 span.border-text {
-    font-family: 'azedolight';
+    font-family: 'Lekton', sans-serif;
     font-weight: 100;
     color: #fff;
     border: 2px solid #fff;
@@ -879,7 +875,7 @@ span.border-text {
     font-size: 60px;
     font-weight: 100;
     line-height: 60px;
-    font-family: 'azedolight', sans-serif;
+    font-family: 'Lekton', sans-serif;
     letter-spacing: 2.5pt;
 }
 .slider-controls {
@@ -2620,7 +2616,7 @@ ul.social-buttons li {
     margin-right: 10px;
     margin-top: 8px;
     text-align: center;
-    font-family: 'azedobold';
+    font-family: 'Lekton', sans-serif;
 }
 /*Blog Timeline*/
 .cbp_tmtimeline {
@@ -2754,7 +2750,7 @@ ul.social-buttons li {
 .inner-map .inner-map-content h1 {
     text-align: center;
     font-size: 60px;
-    font-family: 'azedobold', sans-serif;
+    font-family: 'Lekton', sans-serif;
 }
 .inner-map .inner-map-content hr {
     float: none;
