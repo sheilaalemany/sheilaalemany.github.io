@@ -5,7 +5,7 @@
     "tableValues": {
 	"Slides": "<a href=\"files/SHEILA_NOAA_presentation.pdf\">Here they are!</a>",
 	"Code": "<a href=\"https://github.com/sheilaalemany/hurricane-rnn\">github.com/sheilaalemany/hurricane-rnn</a>",
-	"Who": "Upsilon Pi Epsilon's SparkDev/Independent Research",
+	"What": "Upsilon Pi Epsilon's SparkDev Project/Independent Research",
 	"Where": "Florida International University",
     "When": "Fall 2017 to Fall 2018"
     },
@@ -14,7 +14,7 @@
   },
   "mitlincolnlab":{
     "title": "MIT Lincoln Laboratory",
-    "description": "Conducted exploratory data analysis to assist in the process of improving machine learning approaches that predict cyber-attacks. Contributed to the existing set of metrics by proposing new evaluation techniques that use statistical methods, natural language processing, and clustering techniques. (Advisors: Dr. Joseph Zipkin and Dr. Amy Hughes)",
+    "description": "In the Fall of 2017, I was fortunate enough to be given an offer to be a Summer 2018 research intern for the Cybersecurity division at MIT Lincoln Lab. Once there, I conducted exploratory data analysis to assist in the process of improving machine learning approaches that predict cyber-attacks. Under the mentorship of the technical staff Dr. Joseph Zipkin, Dr. Amy Hughes, and Evan Young, I was able to contribute to the existing set of metrics by proposing new evaluation techniques that use statistical methods, natural language processing, and clustering techniques. This experience provided more inspiration and reassurance of the importance of impactful research.",
     "tableValues": {
 	"What": "Cyber Analytics + Decision Systems Research Internship",
 	"Where": "MIT Lincoln Lab",
@@ -22,5 +22,50 @@
     },
     "image1": "img/latest/image2_1.jpg",
 	"image2": "img/latest/image2_1.jpg"
+  },
+  "dataprediction":{
+    "title": "Data Prediction for resource-constrained devices in IoT",
+    "description": "Under the mentorship of Dr. Pissinou, a PhD student and I have developed a method for mobile wireless sensor networks and the expanding field of Internet of Things that predicts future data streams using the abstracted behavior of historical data. This method uses a candlestick data structure, commonly used in currency market analysis, to partition the data. It also uses dynamic time warping as a similarity metric, and a support vector machine for trend prediction. My contribution involved developing these aforementioned techniques. I after which completed their implementation and simulated them using Python. Our techniques can improve the space complexity of the data collected in mobile wireless sensor networks without losing any behavioral information about the data.</p><p>As the data collected in the field expands, our algorithms could allow for extended sensor durability in mobile wireless sensor networks. Lengthened sensor endurance will facilitate many applications that require minimal human interference to improve, such as environmental and health monitoring. The work has been successfully published as a workshop paper in the <a href='https://workshop.euranova.eu/bigdata18.html'>2018 Third Workshop on Real-time + Stream Analytics in Big Data + Stream Data Management</a> called <a href=''>\"Using Candlestick Charting and Dynamic Time Warping for Data Behavior Modeling and Trend Prediction for MWSN in IoT\"</a>. ",
+    "tableValues": {
+	"What": "Volunteer Research Assistant",
+	"Where": "Florida International University",
+    "When": "Spring 2018 to Fall 2018"
+    },
+    "image1": "img/latest/image2_1.jpg",
+	"image2": "img/latest/image2_1.jpg"
+  },
+  "neuralgonna":{
+    "title": "Neural Gonna Give You Up",
+    "description": "During a 24-hour hackathon, two peers and I applied a recurrent neural network using Python and Keras to manipulate any musical beat into Rick Astley’s Never Gonna Give You Up. This was done by separating each individual instrument and training one neural network per instrument and then stitching the musical tracks back together. This fun and entertaining project won Best Artificial Intelligence and Machine Learning Hack and we were able to gain more experience in neural networks along with some knowledge on music theory.",
+    "tableValues": {
+		"Code": "<a href=\"https://github.com/sheilaalemany/Neural-Gonna-Give-You-Up\">github.com/sheilaalemany/Neural-Gonna-Give-You-Up</a>",
+	"DevPost": "<a href=\"https://devpost.com/software/neural-gonna-give-you-up\">devpost.com/software/neural-gonna-give-you-up</a>",
+	"Where": "UHack 2017 Hackathon",
+    "When": "December 2017"
+    },
+    "image1": "img/latest/image3_1.jpg",
+	"image2": "img/latest/image3_2.jpg"
+  },
+  "dynamictrust":{
+    "title": "Mobile Wireless Sensor Networks Dynamic Trust Establishment",
+    "description": "My work in dynamic trust establishment for mobile wireless sensor networks began in the fall of 2016 under the mentorship of Dr. Niki Pissinou in the Army Educational Outreach Program at Florida International Univerisity (FIU). Under that program. I was able to implemented and simulated a lightweight technique for data cleaning in mobile wireless sensor networks that used an economic model for determining the trustworthiness of candidate sensors to improve data accuracy. This work, called <a href='https://ieeexplore.ieee.org/document/8390320'>\"Context-Aware Data Cleaning for Mobile Wireless Sensor Networks: A Diversified Trust Approach\"</a>, was successfully published in <i><a href='http://www.conf-icnc.org/2018/'>2018 International Conference on Computing, Networ􏰘ng and Communications (ICNC)</a></i>.</p><p>Shortly thereafter, still with Dr. Pissinou, I participated in the Research Experience for Undergraduates at FIU in the summer of 2017. During that time I collaborated in two projects. One consisted of improving upon the work done as a Research Assistant for the Army Educational Outreach Program, including making the method more robust with less user-defined parameters. This work, called <a href='https://ieeexplore.ieee.org/abstract/document/8455888'>\"A Dynamic Trust Weight Allocation Technique for Data Reconstruction in Mobile Wireless Sensor Networks\"</a>, was successfully published in <i><a href='http://www.cloud-conf.net/trustcom18/'>2018 International Conference On Trust, Security And Privacy In Computing And Communications (TrustCom)</a></i>. The second project formally applying category theory to data cleaning for mobile wireless sensor networks by finding ways the decision-making method would benefit 􏰑om categorically organizing the data each sensor receives. All of these projects were simulated using MATLAB and the BonnMotion Mobility Generation and Analysis Tool and tested using an environmental dataset.",
+    "tableValues": {
+	"What": "Research Assistant/Intern"
+	"Where": "FIU's School of Computing and Information Sciences",
+    "When": "Fall 2016 to Fall 2017"
+    },
+    "image1": "img/latest/image2_1.jpg",
+	"image2": "img/latest/image2_1.jpg"
+  },
+  "nanodegree":{
+    "title": "Udacity's Deep Learning Nanodegree",
+    "description": "Through <a href='https://www.udacity.com/course/deep-learning-nanodegree--nd101'>Udacity's nanodegree program</a> I learned the foundations of deep learning using neural networks to complete tasks such as image classification with convolutional neural networks, speech/text translation with recurrent neural networks, and image generation using generative adversarial networks. I was able to learn this using Python and Tensorflow through five main projects.</p><h6>Project 1</h6><p>In this project, I built a simple neural network from scratch that predicts bike sharing rides for a bike shop, or how many bikes the bike shop may need based on the amount of expected customers in a certain month. This project allowed me to use the concepts learned up to this point, such as gradient descent and backpropagation.<h6>Project 2</h6><p>In this project, I classified images from the CIFAR-10 dataset. I used a convolutional neural network to classify images of airplanes, dogs, cats, and other objects. This project allowed me to learn about convolutional neural networks, max pooling, dropout, and fully connected layers.</p><h6>Project 3</h6><p>In this project, I generated Simpsons TV scripts using a recurrent neural network using a dataset that contained the scripts from 27 seasons of the Simpsons. This project allowed me to learn about recurrent neural networks using LSTM cells.</p><h6>Project 4</h6><p>In this project, I translated sentences from English to French using a sequence to sequence recurrent neural network. The model was trained on English to French. Project 3 and 4 allowed me to practice text preprocessing including methods to encode, decode, tokenize, and pad.</p><h6>Project 5</h6><p>In this project, I generated images of human faces using a generative adversarial neural network. The model was trained using two datasets, MNIST and CelebA. The MNIST dataset is used to first to train and test the model as it is a simple dataset containing handwritten digits. The CelebA dataset contains over 200,000 celebrity images with annotations. This project allowed me to learn about generative adversarial neural networks containing a discriminator neural network and generator.",
+    "tableValues": {
+		"Code": "<a href=\"https://github.com/sheilaalemany/udacity_deep_learning\">github.com/sheilaalemany/udacity_deep_learning</a>",
+	"Where": "Deep Learning Nanodegree",
+    "When": "Fall 2017"
+    },
+    "image1": "img/latest/image6_1.jpg",
+	"image2": "img/latest/image6_2.jpg"
   }
 }
