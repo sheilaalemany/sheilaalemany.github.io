@@ -2644,17 +2644,30 @@ ul.social-buttons li {
     color: #5F5F5F;
 }
 /* Right content */
-.cbp_tmtimeline > li .cbp_tmlabel {
+.cbp_tmtimeline > li .cbp_tmlabel_pres {
     margin: 0 0 35px 25%;
-    background: #E1E2E1;
+    background-color: rgba(222,189,255,0.3);
     padding: 20px;
     font-size: 1.2em;
     font-weight: 300;
     line-height: 1.4;
     position: relative;
 }
-.cbp_tmlabel h1,
-.cbp_tmlabel p {
+.cbp_tmtimeline > li .cbp_tmlabel_awar {
+    margin: 0 0 35px 25%;
+    background-color: rgba(168,255,238,0.3);
+    padding: 20px;
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 1.4;
+    position: relative;
+}
+.cbp_tmlabel_pres h1,
+.cbp_tmlabel_pres p {
+    color: #333;
+}
+.cbp_tmlabel_awar h1,
+.cbp_tmlabel_awar p {
     color: #333;
 }
 .cbp_tmtimeline > li .cbp_tmlabel h2 {
@@ -2663,7 +2676,7 @@ ul.social-buttons li {
     border-bottom: 1px solid rgba(255, 255, 255, 0.4);
 }
 /* The triangle */
-.cbp_tmtimeline > li .cbp_tmlabel:after {
+.cbp_tmtimeline > li .cbp_tmlabel_pres:after {
     right: 100%;
     border: solid transparent;
     content: " ";
@@ -2671,7 +2684,19 @@ ul.social-buttons li {
     width: 0;
     position: absolute;
     pointer-events: none;
-    border-right-color: #E1E2E1;
+    border-right-color: rgba(222,189,255,0.3);
+    border-width: 10px;
+    top: 22px;
+}
+.cbp_tmtimeline > li .cbp_tmlabel_awar:after {
+    right: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-right-color: rgba(168,255,238,0.3);
     border-width: 10px;
     top: 22px;
 }
