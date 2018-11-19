@@ -39,7 +39,7 @@
     "description": "During a 24-hour hackathon, two peers and I applied a recurrent neural network using Python and Keras to manipulate any musical beat into Rick Astley’s Never Gonna Give You Up. This was done by separating each individual instrument and training one neural network per instrument and then stitching the musical tracks back together. This fun and entertaining project won Best Artificial Intelligence and Machine Learning Hack and we were able to gain more experience in neural networks along with some knowledge on music theory.",
     "tableValues": {
 		"Code": "<a href=\"https://github.com/sheilaalemany/Neural-Gonna-Give-You-Up\">github.com/sheilaalemany/Neural-Gonna-Give-You-Up</a>",
-	"DevPost": "<a href=\"https://devpost.com/software/neural-gonna-give-you-up\">devpost.com/software/neural-gonna-give-you-up</a>",
+	"Devpost": "<a href=\"https://devpost.com/software/neural-gonna-give-you-up\">devpost.com/software/neural-gonna-give-you-up</a>",
 	"Where": "UHack 2017 Hackathon",
     "When": "December 2017"
     },
