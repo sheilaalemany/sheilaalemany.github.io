@@ -11,10 +11,8 @@ $.fn.escape = function(callback) {
         });
     });
 };
-
 //Menu Navigation Hamburger
-var navigationRight = jQuery('.menu-wrap');
-
+var navigationRight = 0
 function Navigation() {
     var bodyEl = document.body,
         content = document.querySelector('#close-button'),
@@ -190,6 +188,11 @@ function likeEf() {
 
 //Document Ready
 jQuery(document).ready(function($) {
+  jQuery.get("menu.html", function(data){
+
+    jQuery("#menu-renders-here").replaceWith(data);
+    navigationRight = jQuery('.menu-wrap');
+
 
     //Navigation Sub Menu Triggering
     jQuery('.menu-item-has-children, .page_item_has_children').hover(function() {
@@ -218,10 +221,11 @@ jQuery(document).ready(function($) {
         getDribbbleThumbs();
     };
 
-    //Menu Right Side
-    if (navigationRight.length > 0) {
-        Navigation();
-    };
+      //Menu Right Side
+      if (navigationRight.length > 0) {
+          Navigation();
+      };
+
 
     //Parallax Background on Desktop
     if (!isMobile.any()) {
@@ -354,6 +358,7 @@ jQuery(document).ready(function($) {
 
     //WOW Animation init
     new WOW().init();
+  });
 
 });
 
