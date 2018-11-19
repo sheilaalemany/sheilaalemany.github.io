@@ -3149,3 +3149,6 @@ a img.aligncenter {
 .project-table-container{
   margin-top: 0.83em !important;
 }
+.project-table-font{
+  font-family: 'Lekton', sans-serif;
+}
