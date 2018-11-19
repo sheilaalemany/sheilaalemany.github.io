@@ -21,7 +21,7 @@
     "When": "Summer 2018"
     },
     "image1": "img/latest/image2_1.jpg",
-	"image2": "img/latest/image2_1.jpg"
+	"image2": "img/latest/image2_2.jpg"
   },
   "dataprediction":{
     "title": "Data Prediction for resource-constrained devices in IoT",
@@ -31,8 +31,8 @@
 	"Where": "Florida International University",
     "When": "Spring 2018 to Fall 2018"
     },
-    "image1": "img/latest/image2_1.jpg",
-	"image2": "img/latest/image2_1.jpg"
+    "image1": "img/latest/image5_1.jpg",
+	"image2": "img/latest/image5_2.jpg"
   },
   "neuralgonna":{
     "title": "Neural Gonna Give You Up",
@@ -54,8 +54,8 @@
 	"Where": "FIU's School of Computing and Information Sciences",
     "When": "Fall 2016 to Fall 2017"
     },
-    "image1": "img/latest/image2_1.jpg",
-	"image2": "img/latest/image2_1.jpg"
+    "image1": "img/latest/image4_1.jpg",
+	"image2": "img/latest/image4_2.jpg"
   },
   "nanodegree":{
     "title": "Udacity's Deep Learning Nanodegree",
