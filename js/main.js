@@ -188,7 +188,10 @@ function likeEf() {
 
 //Document Ready
 jQuery(document).ready(function($) {
+  jQuery.get("menu.html", function(data){
 
+    jQuery("#menu-renders-here").replaceWith(data);
+    navigationRight = jQuery('.menu-wrap');
 
 
     //Navigation Sub Menu Triggering
@@ -218,15 +221,10 @@ jQuery(document).ready(function($) {
         getDribbbleThumbs();
     };
 
-    jQuery.get("menu.html", function(data){
-      console.log("hi")
-      jQuery("#menu-renders-here").replaceWith(data);
-      navigationRight = jQuery('.menu-wrap');
       //Menu Right Side
       if (navigationRight.length > 0) {
           Navigation();
       };
-    });
 
 
     //Parallax Background on Desktop
@@ -360,6 +358,7 @@ jQuery(document).ready(function($) {
 
     //WOW Animation init
     new WOW().init();
+  });
 
 });
 
