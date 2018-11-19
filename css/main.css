@@ -2317,9 +2317,13 @@ span.press {
 .table>tbody>tr>td,
 .table>tfoot>tr>td {
     border: 0;
-    font-size: 16px;
-    font-weight: 300;
     color: #383838;
+    font-family: 'Lekton', sans-serif;
+}
+.table>thead>tr>td:first-child,
+.table>tbody>tr>td:first-child,
+.table>tfoot>tr>td:first-child {
+  font-weight: bold;
 }
 ul.social-buttons {
     padding: 0;
@@ -3145,10 +3149,6 @@ a img.aligncenter {
     text-align: center;
   }
 }
-
 .project-table-container{
   margin-top: 0.83em !important;
-}
-.project-table-font{
-  font-family: 'Lekton', sans-serif;
 }
