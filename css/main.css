@@ -2323,7 +2323,7 @@ span.press {
 .table>thead>tr>td:first-child,
 .table>tbody>tr>td:first-child,
 .table>tfoot>tr>td:first-child {
-  font-weight: bold;
+  font-weight: 500;
 }
 ul.social-buttons {
     padding: 0;
