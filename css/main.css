@@ -3145,3 +3145,7 @@ a img.aligncenter {
     text-align: center;
   }
 }
+
+.project-table-container{
+  margin-top: 0.83em !important;
+}
