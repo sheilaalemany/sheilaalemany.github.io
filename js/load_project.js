@@ -30,7 +30,7 @@ window.onload = function(){
                   var row = projectInfoTable.insertRow(0);
                   var question = row.insertCell(0);
                   var answer = row.insertCell(1);
-                  question.innerHTML = "<strong>" + property + "?</strong>"
+                  question.innerHTML = property + "?"
                   answer.innerHTML =  project["tableValues"][property]
               }
           }

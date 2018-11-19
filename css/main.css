@@ -2319,12 +2319,14 @@ span.press {
     border: 0;
     color: #383838;
     font-family: 'Lekton', sans-serif;
+    font-size: 15px;
 }
 .table>thead>tr>td:first-child,
 .table>tbody>tr>td:first-child,
 .table>tfoot>tr>td:first-child {
-  font-weight: 500;
+  font-weight: 700;
 }
+
 ul.social-buttons {
     padding: 0;
 }
