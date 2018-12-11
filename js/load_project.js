@@ -20,20 +20,14 @@ window.onload = function(){
           titleHeader.innerHTML = project["title"];
           projectDescription = document.getElementById("project-description");
           projectDescription.innerHTML = project["description"];
+          projectCategory = document.getElementById("project-category");
+          projectCategory.innerHTML = project["category"];
+          projectDate = document.getElementById("project-date");
+          projectDate.innerHTML = project["date"];
           projectImage1 = document.getElementById("project-image-1");
           projectImage1.src = project["image1"];
           projectImage2 = document.getElementById("project-image-2");
           projectImage2.src = project["image2"];
-          projectInfoTable = document.getElementById("project-info-table");
-          for (var property in project["tableValues"]) {
-              if (project["tableValues"].hasOwnProperty(property)) {
-                  var row = projectInfoTable.insertRow(0);
-                  var question = row.insertCell(0);
-                  var answer = row.insertCell(1);
-                  question.innerHTML = property + "?"
-                  answer.innerHTML =  project["tableValues"][property]
-              }
-          }
         }
   };
   xobj.send(null);
