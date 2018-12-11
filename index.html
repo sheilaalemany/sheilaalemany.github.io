@@ -1,268 +1,396 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Sheila Alemany - Portfolio</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>
+<html lang="en">
 
-<!--main style start-->
+  <head>
 
-<link rel="stylesheet" href="css/bootstrap.css">
-<link rel="stylesheet" href="css/style.css">
-<!--main style end-->
-<!--google font style-->
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300' rel='stylesheet' type='text/css'>
-<!--font-family: 'Open Sans', sans-serif;-->
-<!--socialo fonts start-->
-<link rel="stylesheet" href="css/socialo-fonts.css">
-<!--socialo fonts end-->
-<link rel="stylesheet" href="css/component.css">
-<script src="js/modernizr.custom.js"></script>
-</head>
+    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no"> 
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<body>
-<!--top part start-->
-<header class="navbar navbar-default topNav" id="top" role="banner">
-  <div class="container">
-    <div class="navbar-header">
-      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      <a href="index.html" class="navbar-brand"><img src="images/logo_new.png" alt="logo"><span>Sheila Alemany</span></a> </div>
-    
-    <!--Menu start-->
-    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="index.html">Portfolio</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
+    <title>Sheila Alemany CV</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+	<link href='https://fonts.googleapis.com/css?family=Pacifico:400&subset=' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+	<link rel="stylesheet" href="/path/to/folder/css/academicons.min.css"/>
+
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Curriculum Vitae</span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#publications">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-    <!--Menu end--> 
-	
-  </div>
-</header>
-<section class="container menuBottomCon"> 
-  <!--Header text start-->
-  <div class="row">
-    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 topContent">
-      <h3 class="font-openBold">Fast-learner passionate about developing ideas using artificial intelligence that will be globally impactful</h3>
-      <h4 class="font-openRegular">Computer science &amp; mathematics student at Florida International University</h4>
-    </div>
-    <!--Header text end--> 
-    <!--Social icon start-->
-    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 socialList">
-      <ul class="list-unstyled">
-        <li><a href="#" class="facebookcircle icon"></a></li>
-        <li><a href="#" class="twitterbirdcircle icon"></a></li>
-        <li><a href="#" class="linkedincircle icon"></a></li>
-        <li><a href="#" class="googlecircle icon"></a></li>
-        <li><a href="#" class="deviantartcircle icon"></a></li>
-        <li><a href="#" class="dribbblecircle icon"></a></li>
-      </ul>
-    </div>
-    <!--Social icon start--> 
-  </div>
-</section>
-<!-- <div class="separator container"><span class="sepIcon intop"></span></div> -->
-<!--Portfolio start-->
-<div class="container bodyContent grid-wrap">
-  <ul class="list-unstyled portfolioList grid swipe-rotate" id="grid">
-    <li>
-      <div class="listLink">
-        <div class="portfolioSlide"><img src="http://placehold.it/300x400&text=image1" class="img-responsive" alt=""></div>
-        <div class="portfolioContent">
-          <h3 class="font-openBold"><a href="generic_project.html?project=hurricane">Deep Learning for Hurricane Forecasting</a> <span>Research</span></h3>
-        </div>
-      </div>
-    </li>
-    <li>
-     <div class="listLink">
-       <div class="portfolioSlide"><img src="http://placehold.it/300x400&text=image1" class="img-responsive" alt=""></div>
-       <div class="portfolioContent">
-         <h3 class="font-openBold"><a href="generic_project.html?project=mitlincolnlab">MIT Lincoln Laboratory</a> <span>Internship</span></h3>
-       </div>
-     </div>
-    </li>
-    <li>
-      <div class="listLink">
-        <div class="portfolioSlide"><img src="http://placehold.it/300x400&text=image1" class="img-responsive" alt=""></div>
-        <div class="portfolioContent">
-          <h3 class="font-openBold"><a href="generic_project.html?project=dataprediction">Data Prediction for Resource-Constrained Devices in IoT</a> <span>Research</span></h3>
-        </div>
-      </div>
-    </li>
-    <li>
-     <div class="listLink">
-       <div class="portfolioSlide"><img src="http://placehold.it/300x400&text=image1" class="img-responsive" alt=""></div>
-       <div class="portfolioContent">
-         <h3 class="font-openBold"><a href="generic_project.html?project=neuralgonna">Neural Gonna Give You Up</a> <span>Hackathon</span></h3>
-       </div>
-     </div>
-    </li>
-    <li>
-      <div class="listLink">
-        <div class="portfolioSlide"><img src="http://placehold.it/300x400&text=image1" class="img-responsive" alt=""></div>
-        <div class="portfolioContent">
-          <h3 class="font-openBold"><a href="generic_project.html?project=dynamictrust">MWSN Dynamic Trust Establishment</a> <span>Research</span></h3>
-        </div>
-      </div>
-    </li>
-    <li>
-      <div class="listLink">
-        <div class="portfolioSlide"><img src="http://placehold.it/300x400&text=image1" class="img-responsive" alt=""></div>
-        <div class="portfolioContent">
-          <h3 class="font-openBold"><a href="generic_project.html?project=nanodegree">Udacity's Deep Learning Nanodegree</a> <span>Learning for Fun</span></h3>
-        </div>
-      </div>
-    </li>
-  </ul>
 
-<!--footer start-->
-<footer class="footer">
-  <div class="container">
-    <ul class="list-unstyled footerLink">
-      <li><a href="index.html">Portfolio</a></li>
-      <li><a href="about.html">About</a></li>
-    </ul>
-    <p class="copyrightText">&copy; 2018 Sheila Alemany</p>
-  </div>
-</footer>
-<!--footer end-->
+    <div class="container-fluid p-0">
 
-<!--Javascriptfile start -->
-<script type="text/javascript" src="js/jquery.min.js"></script> 
-<script type="text/javascript" src="js/bootstrap.js"></script> 
-<script src="js/masonry.pkgd.min.js"></script> 
-<script src="js/imagesloaded.pkgd.min.js"></script> 
-<script src="js/classie.js"></script> 
-<script src="js/colorfinder-1.1.js"></script> 
-<script src="js/gridScrollFx.js"></script> 
-<script>
-var masonryClass, container = $("#grid");
-	new GridScrollFx( document.getElementById( 'grid' ), {
-		viewportFactor : 0.4
-	} );
-	
-	$(function(){
-		$(".hiddenElm li").each(function(index, element) {
-			//console.log("attr added");
-			$(this).attr({"di":index});
-			})
-		$(".vc").not(".disabled").click(function(e) {
-			e.preventDefault();
-			a = [];
-				if($(".hiddenElm li").length>0){
-					$(".hiddenElm li").each(function(index, element) {
-                        //console.log(index);
-						
-						
-						if(index<=5){
-							a.push($(this).attr("di"));
-							//console.log(a);
-							var getElm = $(this).clone(true);							
-							$("#grid").append(getElm);
-						}else{
-							return;
-						}
-                    });
-					$.each(a,function(i){						
-						$(".hiddenElm li[di='"+a[i]+"']").remove();
-					});	
-							/*var getElm = $(".hiddenElm li:lt(6)").clone();
-							$(".hiddenElm li:lt(6)").remove();
-							$("#grid").append(getElm);*/
-						
-				}else{
-					$(this).addClass("disabled").text("The End");	
-				}
-				$(".pf-slider").each(function(index, element) {
-					$(this).height($(this).parents("li").height()-116);           
-        		});
-				new GridScrollFx( document.getElementById( 'grid' ), {
-					viewportFactor : 0.4
-				} );
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto center-sheils">
+          <h1 class="mb-0 h1-sheils">Sheila
+            <span class="text-primary">Alemany</span>
+          </h1>
+          <div class="subheading mb-5">
+			  <!-- <a href="mailto:salem010@fiu.edu"></a> -->
+          </div>
+          <p class="mb-5">Hi there! I'm a researcher passionate about mathematics, algorithms, and problem solving. I am pursuing a dual degree in computer science and mathematics at Florida International University (FIU). I love learning and helping others. I'm passionate about pursuing higher education that will allow me to contribute and develop ideas using artificial intelligence that will be globally impactful.</p>
+          <ul class="list-inline list-social-icons mb-0">
+			  
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/in/sheilaalemany">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
 			
-		});
-		$(".pf-slider").each(function(index, element) {
-			$(this).height($(this).parents("li").height()-116);
-            $(this).find("img").css({"left":"100%"});
-			$(this).find("img:first").css({"left":0}).addClass("currentSlide");
-			$(this).find(".prevLink").hide();
-        });
-		$("body").on("click",".slideLink",function(e){
-			//var getClass =	
-			e.preventDefault();
-			var $this=$(this);
-			var getpar = $(this).parents(".pf-slider");
-			if($(this).hasClass("nextLink")){
-				//alert(getpar.find("img").length);
-				$(this).siblings(".prevLink").show();
-				var getcur = getpar.find(".currentSlide");
-				var nexElm = getcur.next("img");
+            <!-- <li class="list-inline-item">
+              <a href="https://scholar.google.com/citations?user=cKR-gFQAAAAJ&hl=en">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="ai ai-google-scholar-square fa-3x"></i>
+                </span>
+              </a>
+            </li> -->
+			
+            <li class="list-inline-item">
+              <a href="https://github.com/sheilaalemany">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
 				
-				nexElm.css({
-					"left":"100%",
-					"z-index":10
-				});
-				nexElm.animate({
-					"left":0
-					},"slow",
-				function(){
-					getcur.css({"left":"100%"}).removeClass("currentSlide");
-					nexElm.addClass("currentSlide");	
-					if(nexElm.next("img").length==0){
-						$this.hide();
-					}
-				})
-				
-			}
-			else{
-				$(this).siblings(".nextLink").show();
-				var getcur = getpar.find(".currentSlide");
-				var preElm = getcur.prev("img");
-								
-				preElm.css({
-					"left":(-1*getpar.width()),
-					"z-index":10
-				});
-				preElm.animate({
-					"left":0
-					},"slow",
-				function(){
-					getcur.css({"left":"100%"}).removeClass("currentSlide");
-					preElm.addClass("currentSlide");	
-					if(preElm.prev("img").length==0){
-						$this.hide();
-					}
-				})
-				}
-		})
-	});	
-</script> 
-<script>
-var activeImage;
-$(document).ready(function(e) {
-	var getmaxHeight = 0;
-	$(".testimonialText li").each(function(index, element) {
-        if($(this).height()>getmaxHeight){
-			getmaxHeight = $(this).height();
-			$(".footerTopContent").height(getmaxHeight);
-			}
-    });
-	
-    $(".testimonialText li").fadeTo("fast",0);
-	$(".testimonialText li:first").fadeTo("fast",1);
-	$(".imageSlide .imageBox").removeClass("activeImage");
-	$(".imageSlide .imageBox:first").addClass("activeImage");
-	$(".imageSlide .imageBox").mouseenter(function(){
-		if(!$(this).hasClass("activeImage")){
-			var gi = $(this).index();
-			//console.log(gi);
-			$(".imageSlide .imageBox").removeClass("activeImage");
-			$(this).addClass("activeImage");
-			$(".testimonialText li").fadeTo("fast",0);
-			$(".testimonialText li:eq("+gi+")").fadeTo("fast",1);
-			}
-	})
-});
-</script>
-</body>
+            <li class="list-inline-item">
+              <a href="https://twitter.com/_cheilaa?lang=en">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+			
+          </ul>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+        <div class="my-auto center-sheils">
+          <h2 class="mb-5 ">Experience</h2>
+		  
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Volunteer Research Assistant</h3>
+              <div class="subheading mb-3">School of Computing and Information Sciences at FIU</div>
+              <p>Assisted in the development and implemented the simulation of a prediction technique for mobile wireless sensor networks whose main focus was to improve space complexity while maintaining the behavioral information of sensor data. Direct contribution was in the use of dynamic time warping as the similarity metric between abstracted data, and using a support vector machine for trend prediction. <strong>Advisor: Niki Pissinou</strong></p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Spring 2018 - Present</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Cyber Analytics & Decision Systems Research Intern</h3>
+              <div class="subheading mb-3">MIT Lincoln Laboratory</div>
+              <p>Conducted exploratory data analysis to assist in the process of improving machine learning approaches that predict cyber-attacks. Contributed to the existing set of metrics by proposing new evaluation techniques that use statistical methods, natural language processing, and clustering techniques. <strong>Advisors: Dr. Joseph Zipkin and Dr. Amy Hughes</strong></p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Summer 2018</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Learning Assistant</h3>
+              <div class="subheading mb-3">School of Computing and Information Sciences at FIU</div>
+              <p>Assisted during hands-on projects in class and held office hours for a Computer Organization course in order to promote and expedite student learning throughout the semester.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Fall 2017 - Spring 2018</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Research Intern</h3>
+              <div class="subheading mb-3">Research Experience for Undergraduates at FIU</div>
+              <p>Collaborated on two projects where one consisted of improving upon the work done as a Research Assistant for the Army Educational Outreach Program. My contribution was in the development of the improved technique, including making the method more robust with less user-defined parameters.</p><p>The second project allowed me to formulate the application of category theory in data cleaning for mobile wireless sensor networks by finding ways the decision-making method would benefit 􏰒om categorically organizing the data each sensor receives. Sponsored by the National Science Foundation and Department of Defense. <strong>Advisor: Niki Pissinou</strong></p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Summer 2017 - Spring 2018</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Research Assistant</h3>
+              <div class="subheading mb-3">Army Educational Outreach Program at FIU</div>
+              <p>Implemented the simulation of a developed technique of data cleaning in mobile wireless sensor networks which used an economic model to determine the trustworthiness of candidate sensors to improve data accuracy. Simulated using MATLAB and the BonnMotion Mobility Generation and Analysis Tool. <strong>Advisor: Niki Pissinou</strong></p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Fall 2016 - Spring 2017</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Tutor</h3>
+              <div class="subheading mb-3">Academic Success Initiative at FIU</div>
+              <p>Facilitated subject understanding for students in group sessions or scheduled one-on-one meetings outside of class for Fundamentals of Computer Systems and Discrete Mathematics courses.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Fall 2015 - Summer 2016</span>
+            </div>
+          </div>
+
+      </section>
+
+      <!-- <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <div class="my-auto">
+          <h2 class="mb-5">Education</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Florida International University</h3>
+              <div class="subheading mb-3">Bachelor of Science in Computer Science &amp; Mathematics</div>
+              <div>Mathematics - Applied Mathematics Track</div>
+              <p>GPA: 3.75/4.00</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Fall 2014 - Spring 2019 (Expected)</span>
+            </div>
+          </div>
+
+        </div>
+      </section> -->
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
+        <div class="my-auto center-sheils">
+          <h2 class="mb-5  ">Projects</h2>
+
+		        <!-- Project One -->
+		        <div class="row">
+		          <div class="col-md-6">
+		            <!-- <a href="#"> -->
+		              <img class="img-fluid rounded mb-3 mb-md-0" src="img/hurricane_rnn.jpg" alt="">
+  					<!-- <embed src="files/SHEILA_NOAA_presentation.pdf" type="application/pdf"   height="300px" width="100%" class="responsive"> -->
+					  
+		            <!-- </a> -->
+		          </div>
+		          <div class="col-md-6">
+		            <h3>Hurricane RNN</h3>
+		            <p>Applied a fully connected recurrent neural network (RNN) to predict the trajectory of hurricanes given hurricane latitude, longitude, wind speed, brand pressure. Employed the RNN over a fine grid to reduce typical truncation errors.</p>
+		            <a class="btn btn-primary" href="files/SHEILA_NOAA_presentation.pdf">Slides</a>
+					<a class="btn btn-primary" href="https://github.com/sheilaalemany/hurricane-rnn">Source Code</a>
+		          </div>
+		        </div>
+		        <!-- /.row -->
+
+		        <hr>
+
+		        <!-- Project Two -->
+		        <div class="row">
+		          <div class="col-md-6">
+		            
+				    <div id="carousel-neural" class="carousel slide" data-ride="carousel">
+				           <ol class="carousel-indicators">
+				             <li data-target="#carousel-neural" data-slide-to="0" class="active"></li>
+				             <li data-target="#carousel-neural" data-slide-to="1"></li>
+				             <li data-target="#carousel-neural" data-slide-to="2"></li>
+							 <li data-target="#carousel-neural" data-slide-to="3"></li>
+				           </ol>
+				           <div class="carousel-inner" role="listbox">
+				             <div class="carousel-item active">
+			 		              <img class="img-fluid rounded mb-3 mb-md-0" src="img/neural-1.JPG" alt="">
+				             </div>
+				             <div class="carousel-item">
+ 			 		              <img class="img-fluid rounded mb-3 mb-md-0" src="img/neural-2.JPG" alt="">
+				             </div>
+				             <div class="carousel-item">
+ 			 		              <img class="img-fluid rounded mb-3 mb-md-0" src="img/neural-3.JPG" alt="">
+				             </div>
+				             <div class="carousel-item">
+ 			 		              <img class="img-fluid rounded mb-3 mb-md-0" src="img/neural-4.JPG" alt="">
+				             </div>
+				           </div>
+				           <a class="carousel-control-prev" href="#carousel-neural" role="button" data-slide="prev">
+				             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				             <span class="sr-only">Previous</span>
+				           </a>
+				           <a class="carousel-control-next" href="#carousel-neural" role="button" data-slide="next">
+				             <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				             <span class="sr-only">Next</span>
+				           </a>
+				     </div>
+						
+		          </div>
+		          <div class="col-md-6">
+		            <h3>Neural Gonna Give You Up</h3>
+		            <p>Applied a recurrent neural network using Python and Keras to manipulate any musical beat into Rick Astley’s Never Gonna Give You Up. Completed the project at the UHack Spring 2018 Hackathon in Spring 2018. Won 1st Place Overall, Best Artificial Intelligence and Machine Learning Hack, and Best Domain Name.</p>
+		            <a class="btn btn-primary" href="https://github.com/sheilaalemany/Neural-Gonna-Give-You-Up">Source Code</a>
+		          </div>
+		        </div>
+		        <!-- /.row -->
+
+		        <hr>
+
+		        <!-- Project Four -->
+		        <div class="row">
+
+		          <div class="col-md-6">
+		            <!-- <a href="#"> -->
+		              <img class="img-fluid rounded mb-3 mb-md-0" src="img/face_generation.jpg" alt="">
+		            <!-- </a> -->
+		          </div>
+		          <div class="col-md-6">
+		            <h3>Face Generation</h3>
+		            <p>Generated images of human faces using a generative adversarial neural network as a part of the Udacity Deep Learning Nanodegree. The model was trained using two datasets, MNIST and CelebA.</p>
+		            <a class="btn btn-primary" href="https://github.com/sheilaalemany/udacity_deep_learning/tree/master/project5">Source Code</a>
+		          </div>
+		        </div>
+		        <!-- /.row -->
+		  
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="publications">
+        <div class="my-auto">
+          <h2 class="mb-5 center-sheils ">Publications</h2>
+		  
+		  <div class="pubd"><a href="https://arxiv.org/abs/1802.02548">[Link]</a> Predicting Hurricane Trajectories using a Recurrent Neural Network</div>
+		  <div class="puba">Sheila Alemany, Jonathan Beltran, Adrian Perez, Sam Ganzfried</div>
+		  <div class="pubv">arXiv preprint arXiv:1802.02548</div>
+		  
+		  <div class="pubd"><a href="https://ieeexplore.ieee.org/abstract/document/8455888">[Link]</a> A Dynamic Trust Weight Allocation Technique for Data Reconstruction in Mobile Wireless Sensor Networks</div>
+		  <div class="puba">Concepcion Sanchez Aleman, Niki Pissinou, Sheila Alemany, Georges Kamhoua</div>
+		  <div class="pubv">2018 17th IEEE International Conference On Trust, Security And Privacy In Computing And Communications (TrustCom)</div>
+		  
+		  <div class="pubd"><a href="https://ieeexplore.ieee.org/document/8390320">[Link]</a> Context-Aware Data Cleaning in Mobile Wireless Sensor Networks: A Diversified Trust Approach</div>
+		  <div class="puba">Concepcion Sanchez Aleman, Niki Pissinou, Sheila Alemany, Kianoosh Boroojeni, Jerry Miller, Ziqian Ding</div>
+		  <div class="pubv">2018 IEEE International Conference on Computing, Networking and Communications (ICNC)</div>
+		  
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+        <div class="my-auto">
+          <h2 class="mb-5 center-sheils ">Awards &amp; Honors</h2>
+		  
+        <!-- Project Two -->
+        <div class="row">
+          <div class="col-md-6">
+			  
+              <ul class="fa-ul mb-0">
+                <li>
+                  <i class="fa-li fa fa-trophy"></i>
+                  <a href="https://cra.org/about/awards/outstanding-undergraduate-researcher-award/">[Link]</a> 2018 Computing Research Association (CRA) Outstanding Undergraduate Researcher Finalist</li>
+                <li>
+                  <i class="fa-li fa fa-trophy"></i>
+                  <a href="http://awards.cs.fiu.edu/award-ceremony-2017/">[Link]</a> 2017 FIU Outstanding Undergraduate Student Research Award</li>
+                  <li>
+                    <i class="fa-li fa fa-trophy"></i>
+                    2017 FIU SCIS Scholarship to attend Grace Hopper Conference</li>
+                <li>
+                  <i class="fa-li fa fa-trophy"></i>
+                  <a href="http://www.greatmindsinstem.org/about-us/press-release/2016/2016-Scholars-Press-Release-082916-Final.pdf">[Press Release]</a> 2016 Great Minds in STEM (GMiS) Scholar: Sponsored by Dell/ECM2 to attend the 2016 GMiS Conference in Anaheim, CA and to receive a $2,500 academic merit-based scholarship</li>
+                <li>
+                  <i class="fa-li fa fa-trophy"></i>
+                  Member of Upsilon Pi Epsilon honor society for the computing and information technology disciplines (Inducted Fall 2016)</li>
+              </ul>
+            
+			<br>
+		    
+          </div>
+          <div class="col-md-6">
+			  
+  		    <div id="carousel-awards" class="carousel slide" data-ride="carousel">
+  		           <ol class="carousel-indicators">
+  		             <li data-target="#carousel-awards" data-slide-to="0" class="active"></li>
+  		             <li data-target="#carousel-awards" data-slide-to="1"></li>
+  		           </ol>
+  		           <div class="carousel-inner" role="listbox">
+  		             <div class="carousel-item active">
+  	 		              <img class="img-fluid rounded mb-3 mb-md-0" src="img/fiu-scis.jpg" alt="">
+  						  <div class="carousel-caption">
+  						  <p>Receiving the 2017 FIU Outstanding Undergraduate Student Research Award by Dr. Iyengar</p>
+  						  </div>
+  		             </div>
+  		             <div class="carousel-item">
+  	 		              <img class="img-fluid rounded mb-3 mb-md-0" src="img/cra.jpg" alt="">
+  		             </div>
+  		           </div>
+  		           <a class="carousel-control-prev" href="#carousel-awards" role="button" data-slide="prev">
+  		             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  		             <span class="sr-only">Previous</span>
+  		           </a>
+  		           <a class="carousel-control-next" href="#carousel-awards" role="button" data-slide="next">
+  		             <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  		             <span class="sr-only">Next</span>
+  		           </a>
+  		     </div>
+			  
+            
+			
+          </div>
+        </div>
+        <!-- /.row -->
+		        
+        </div>
+
+      </section>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+
+  </body>
+
 </html>
