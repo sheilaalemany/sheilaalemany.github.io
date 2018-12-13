@@ -80,7 +80,7 @@
   <br><br>
   <div class="row">
     <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 blogleft contact">
-      <form id="contactform" method="POST">
+      <form id="contactform" action="//formspree.io/salem010@fiu.edu" method="POST">
         <h3 class="contactTitle">Contact</h3>
 		<!-- <br> -->
         <p>Feel free to get in touch with me via social media or sending me a message below.</p>
@@ -95,20 +95,14 @@
         </div>
         <div class="row conrow">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <input type="email" class="form-control" placeholder="Your email" id="mail" name="mail">
+            <input type="email" name="_replyto" class="form-control" placeholder="Your email" id="mail" name="mail">
+			<input type="hidden" name="_subject" value="PORTFOLIO EMAIL!" />
           </div>
         </div>
-        <!-- <div class="row conrow">
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <input type="text" class="form-control" placeholder="Company" id="company" name="company">
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <input type="text" class="form-control" placeholder="Phone no" id="phone" name="phone">
-          </div>
-        </div> -->
         <div class="row conrow">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <textarea class="form-control" rows="3" placeholder="Message" name="comments" id="comments"></textarea>
+			<input type="text" name="_gotcha" style="display:none" />
           </div>
         </div>
         <div class="row conrow">
@@ -151,5 +145,9 @@
 <script type="text/javascript" src="js/jquery.min.js"></script> 
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script src="dist/js/lightbox-plus-jquery.min.js"></script>
+<script>
+    var contactform =  document.getElementById('contactform');
+    contactform.setAttribute('action', '//formspree.io/' + 'your' + '@' + 'email' + '.' + 'com');
+</script>
 </body>
 </html>
