@@ -11,7 +11,7 @@ if (!defined("PHP_EOL")) define("PHP_EOL", "\r\n");
 
 $faname     = $_POST['faname'];
 $laname     = $_POST['laname'];
-// $company     = $_POST['company'];
+$mail     = $_POST['mail'];
 // $phone    = $_POST['phone'];
 $comments = $_POST['comments'];
 
@@ -21,9 +21,9 @@ if(trim($faname) == '') {
 }else if(trim($laname) == '') {
 	echo '<div class="error_message">You must enter your last name.</div>';
 	exit();
-// }else if(trim($company) == '') {
-// 	echo '<div class="error_message">You must enter first your company name.</div>';
-// 	exit();
+}else if(trim($mail) == '') {
+	echo '<div class="error_message">You must enter your email.</div>';
+	exit();
 // }else if(trim($phone) == '') {
 // 	echo '<div class="error_message">You must enter first your phone number.</div>';
 // 	exit();
@@ -42,7 +42,7 @@ if(get_magic_quotes_gpc()) {
 // Example $address = "joe.doe@yourdomain.com";
 
 //$address = "example@example.net";
-$address = "salem010@fiu.edu";
+$address = "https://formspree.io/salem010@fiu.edu";
 
 
 // Configuration option.
@@ -50,16 +50,16 @@ $address = "salem010@fiu.edu";
 
 // Example, $e_subject = '$name . ' has contacted you via Your Website.';
 
-$e_subject = 'You have been contacted by ' . $faname . '.';
+$e_subject = 'PORTFOLIO: You have been contacted by ' . $faname . '.';
 
 
 // Configuration option.
 // You can change this if you feel that you need to.
 // Developers, you may wish to add more fields to the form, in which case you must be sure to add them here.
 
-$e_body = "You have been contacted by $faname $laname. Their message is as follows." . PHP_EOL . PHP_EOL;
+$e_body = "You have been contacted by $faname $laname. Their email is $mail. Their message is as follows." . PHP_EOL . PHP_EOL;
 $e_content = "\"$comments\"" . PHP_EOL . PHP_EOL;
-$e_reply = "You can contact $faname via email";
+$e_reply = "You can contact $faname via email at $mail.";
 
 $msg = wordwrap( $e_body . $e_content . $e_reply, 70 );
 
@@ -76,7 +76,7 @@ if(mail($address, $e_subject, $msg, $headers)) {
 	echo "<fieldset>";
 	echo "<div id='success_page'>";
 	echo '<div class="success_message">Email Sent Successfully.</div>';
-	echo "<p>Thank you <strong>$name</strong>, your message has been submitted to us.</p>";
+	echo "<p>Thank you <strong>$name</strong>, your message has been sent to me.</p>";
 	echo "</div>";
 	echo "</fieldset>";
 

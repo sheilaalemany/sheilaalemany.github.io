@@ -492,6 +492,10 @@ body {
 .projectImage {
 	margin-bottom: 3px;
 }
+.projectImage img {
+	width:400px;
+
+}
 .blogleft, .blogsidebar {
 	padding-bottom: 126px;
 }
