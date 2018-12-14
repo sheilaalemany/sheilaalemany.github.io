@@ -493,7 +493,7 @@ body {
 	margin-bottom: 3px;
 }
 .projectImage img {
-	width: 400px;
+	width: 100%;
 }
 .blogleft, .blogsidebar {
 	padding-bottom: 126px;
@@ -875,11 +875,7 @@ body {
 }
 @media (max-width: 767px) {
 .topNav .nav {
-	background: url(../images/nav_bg.jpg);
-}
-.topNav .nav a,
-.navbar-default .navbar-nav > li > a{
-	color:#000000;
+	background: #FFFFFF;
 }
 .topNav .nav a {
 	padding: 5px 21px;
@@ -904,7 +900,6 @@ body {
 }
 .topNav .nav > li:hover > a, .topNav .dropdown-menu li:hover > a, .topNav .dropdown-menu > li > a:hover, .topNav .dropdown-menu > li > a:focus {
 	background-color: transparent;
-	color: #FFFFFF;
 }
 .navbar-header {
 	padding-bottom: 15px;
@@ -1067,4 +1062,24 @@ body {
 .comments-form textarea {
 	height: 150px;
 	width: 657px;
+}
+
+@media (max-width: 767px) {
+  .text-xs-center {
+    text-align: center;
+  } 
+  .projectImage img {
+     width: 90%;
+  }
+  .cb a {
+     width: 100%;
+  }
+  .blogsidebar {
+     margin-top:-100px;
+     margin-bottom: -80px;
+  }
+  .contactSide {
+     margin-top:-70px;
+     margin-bottom: 50px;
+  }
 }
