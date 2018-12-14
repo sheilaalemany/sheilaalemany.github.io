@@ -677,12 +677,6 @@ body {
 .contactDetails li i {
 	padding-right: 15px;
 }
-.contactDetails li a {
-	color: #000000;
-}
-.contactDetails li a:hover, .contactDetails li a:focus {
-	color: #b6b6b6;
-}
 .contactSide {
 	padding: 0;
 }
