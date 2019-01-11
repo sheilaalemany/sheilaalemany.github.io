@@ -59,7 +59,7 @@
     "description": "Blockchain technologies in the Internet of Things (IoT) are recently being used to develop a massive decentralized peer-to-peer sensor network. Due to the energy and computational capacity required from the blockchain, it is difficult to scale. Currently, I am building a light-weight, scalable blockchain open-source framework on the <a href='https://www.hyperledger.org/projects/sawtooth'>Hyperledger Sawtooth platform</a> that is suitable for resource-constrained devices in IoT.</p><p>In this framework, I am implementing a novel algorithm which augments blockchain blocks from groups of sensor nodes to maximize the blockchain efficiency. I selected the Hyperledger Sawtooth framework as my platform for this project because Sawtooth targets the use of minimal resource consumption. Our goal with this project is to complete a framework that can be employed by resource-constrained sensors and can be easily employed in various applications. Since this is my first exposure to the blockchain, I am looking forward to learning about the ins and outs of this technology and, eventually, find other applications that may benefit from this technology.</p><p>This work is currently being completed under the close mentorship of <a href='https://www.cis.fiu.edu/faculty-staff/pissinou-niki/'>Dr. Niki Pissinou</a> and her Ph.D. student Abdur R. Shahid. The framework will be posted on Github publicly under the Apache License Version 2.0 software license once the project is completed.",
 	"date": "November 2018 - Present",
 	"category": "Research Project",
-    "image1": "images/latest/imageb_1.jpg",
-	"image2": "images/latest/imageb_2.jpg"
+    "image1": "images/latest/imageb_1-replacement.jpg",
+	"image2": "images/latest/imageb_2-replacement.jpg"
   }
 }
