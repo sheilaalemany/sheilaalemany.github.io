@@ -61,7 +61,7 @@ body {
 .topNav {
 	background-color: #ffffff;
 	border-bottom: 0;
-	padding-top: 61px;
+	padding-top: 40px;
 }
 .topNav .nav {
 	margin-top: 0;
@@ -366,7 +366,7 @@ body {
 	5.0 Body Content Part
 ---------------------------- */
 .bodyContent {
-	padding-top: 76px;
+	padding-top: 25px;
 }
 /* -------------------------
 	6.0 Portfolio Part
@@ -496,7 +496,7 @@ body {
 	width: 100%;
 }
 .blogleft, .blogsidebar {
-	padding-bottom: 126px;
+	padding-bottom: 50px;
 }
 .entry-title {
 	color: #000000;
@@ -683,7 +683,7 @@ body {
 .contact p {
 	color: #000000;
 	font-size: 14px;
-	margin-bottom: 46px;
+	margin-bottom: 25px;
 	line-height: 27px;
 }
 .contact form input[type=text], .contact form textarea {
@@ -858,7 +858,7 @@ body {
 	text-decoration: none;
 }
 .cb {
-	padding-bottom: 79px;
+	padding-bottom: 50px;
 }
 .sn {
 	color: #000000;
