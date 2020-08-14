@@ -782,14 +782,14 @@ body {
 	line-height: 27px;
 	color: #000000;
 	font-family: 'Lato', sans-serif;
-	margin-bottom: 33px;
+	/* margin-bottom: 33px; */
 }
 .content .authors {
 	font-style: italic;
 }
-.publications li{
+/* .publications li{
 	margin: 0 0 -25px 0;
-}
+} */
 .publications .paper-type-conference {
 	background-color: #4285F4;
 	border: none;
