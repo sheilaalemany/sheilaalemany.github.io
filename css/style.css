@@ -61,7 +61,7 @@ body {
 .topNav {
 	background-color: #ffffff;
 	border-bottom: 0;
-	padding-top: 40px;
+	padding-top: 30px;
 }
 .topNav .nav {
 	margin-top: 0;
@@ -336,10 +336,10 @@ body {
 ---------------------------- */
 .footer {
 	background: #f8f7f8;
-	padding-top: 75px;
+	padding-top: 30px;
 	font-size: 13px;
 	line-height: 18px;
-	padding-bottom: 70px;
+	padding-bottom: 30px;
 	text-align: center;
 }
 .footerLink {
