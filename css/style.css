@@ -371,12 +371,27 @@ body {
 /* -------------------------
 	6.0 Portfolio Part
 ---------------------------- */
-.portfolioList li {
-	/*background-color:#f8f7f8;*/
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-bottom: 21px;
+/* .portfolioList ul {
+    border: .5em solid skyBlue;
+    text-align: justify;
 }
+.portfolioList ul:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+.portfolioList ul:before {
+    content: '';
+    display: block;
+    margin-top: -1.25em;
+}
+.portfolioList li {
+	margin-bottom: 21px;
+  display: inline-block;
+  position: relative;
+} */
+
+
 .vc {
 	display: block;
 	line-height: 80px;

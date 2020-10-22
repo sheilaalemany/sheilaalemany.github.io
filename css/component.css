@@ -6,18 +6,36 @@
 }
 
 .grid {
-	margin: 76px auto 62px;
-	padding: 0;
-	list-style: none;
+	/* margin: 76px auto 62px; */
+	padding: 0px;
+	/* list-style: none; */
 	min-height: 500px;
 }
 
-.js .grid {
+/* .js .grid {
 	background: url(../img/loading.gif) no-repeat 50% 100px;
+} */
+
+/* .js .grid.loaded {
+	background: none;
+} */
+
+.grid ul {
+    display: table;
+    width: 100%;
 }
 
-.js .grid.loaded {
-	background: none;
+.grid li {
+    display: table-cell;
+    width: 30%;
+}
+
+.grid li:nth-child(2) {
+    text-align: center;
+}
+
+.grid li:last-child {
+    text-align: right;
 }
 
 .grid li {
@@ -28,14 +46,14 @@
 	vertical-align: top;
 }
 
-.js .grid li {
+/* .js .grid li {
 	display: none;
 	float: left;
 }
 
 .js .grid.loaded li {
 	display: block;
-}
+} */
 
 /* Title box */
 .title-box h2 {
@@ -63,36 +81,38 @@
 .grid li img {
 	display: block;
 	outline: none;
-	border: none;
+	/* height: 250px; */
+	width: 300px;
+	/* border: none; */
 }
 
-.grid li > a {
+/* .grid li > a {
 	position: relative;
 	overflow: visible;
-	/*margin: 7px;*/
-}
+	margin: 7px;
+} */
 
 /* Shadow */
-.grid .curtain {
-	position: absolute;
+/* .grid .curtain {
+	position: relative;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
 	background: rgba(0,0,0,0);
 	content: '';
-}
-.grid.swipe-right .curtain,
+} */
+/* .grid.swipe-right .curtain,
 .grid.swipe-rotate .curtain {
 	left: -100%;
-}
+} */
 
-.grid.swipe-down .curtain {
+/* .grid.swipe-down .curtain {
 	top: -100%;
-}
+} */
 .portfolioSlide{
-	padding-bottom:116px;
-	background-color:#f8f7f8;
+	padding-bottom: 116px;
+	background-color: #f8f7f8;
 	}
 
 /* Title */
@@ -100,7 +120,7 @@
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	margin: 0;
+	margin: 0px;
 	padding: 37px 31px 32px;
 	width: 100%;
 	background: #f8f7f8;
@@ -180,7 +200,7 @@
 	0% {}
 	50%, 60% { -webkit-transform: translate3d(0,0,0); transform: translate(0); }
 	100% { -webkit-transform: translate3d(100%,0,0); transform: translate3d(100%,0,0); }
-} 
+}
 
 /* Swipe down */
 .grid.swipe-down li.animate .curtain {
