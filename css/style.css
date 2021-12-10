@@ -758,7 +758,8 @@ body {
 }
 .contact form input[type=submit]:hover, .contact form input[type=submit]:focus {
 	color: #ffffff;
-	background-color: #000000;
+	background-color: #005C46;
+	border: #005C46 2px solid;
 }
 .error_message
 {
@@ -781,6 +782,33 @@ body {
 /* -------------------------
 	9.0 About part
 ---------------------------- */
+
+a {
+	color: #009B77
+}
+a:hover {
+	color: #005C46;
+}
+
+.icon-background {
+    color: black;
+	border: black;
+}
+.icon-background ul:hover {
+	color: white;
+	border: black;
+}
+
+.socials-small {
+	font-size: 25px;
+}
+.socials-small a {
+	color: #005C46;
+}
+.socials-small a:hover{
+	color: #009B77;
+}
+
 .content h3 {
 	font-size: 19px;
 	font-weight: bold;
@@ -808,6 +836,7 @@ body {
 } 
 
 .publications .abstract {
+	font-size: 14px;
 	padding-left: 20px;
 	padding-right: 20px;
 	text-align: justify;
@@ -815,9 +844,10 @@ body {
 }
 
 .publications .paper-details {
-	background-color: #008264;
-	border: none;
-	color: white;
+/*	background-color: #005C46;*/
+	background-color: white;
+	border: #005C46 1.5px solid;
+	color: #005C46;
 	font-family: 'Lato', sans-serif;
 	padding: 2px 6px;
 	margin-right: 5px;
@@ -907,9 +937,15 @@ body {
 	text-transform: uppercase;
 }
 .cl {
-	padding-left: 0;
-	padding-right: 0;
+	padding-left: 10px;
+	padding-right: 10px;
 }
+
+.ca {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
 .cr {
 	margin-left: 0;
 	padding-left: 48px;
