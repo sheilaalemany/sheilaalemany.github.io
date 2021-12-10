@@ -511,7 +511,7 @@ body {
 	width: 100%;
 }
 .blogleft, .blogsidebar {
-	padding-bottom: 100px;
+/*	padding-bottom: 100px;*/
 }
 .entry-title {
 	color: #000000;
@@ -1052,7 +1052,10 @@ a:hover {
 	padding-right: 10px;
 }
 .cl {
-	padding-bottom: 48px;
+	padding-bottom: 35px;
+}
+.ca {
+	padding-bottom: 0px;
 }
 .pvalue {
 	margin-top: 2px;
