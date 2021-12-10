@@ -6,13 +6,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <link rel="stylesheet" href="css/font-awesome.css">
-<link rel="stylesheet" href="css/bootstrap.css">
+
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	
+<!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
 <link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/flexslider.css">
+<!-- <link rel="stylesheet" href="css/flexslider.css"> -->
 <link href='https://fonts.googleapis.com/css?family=Lato:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="css/component.css">
-<script src="js/modernizr.custom.js"></script>
-<link rel="stylesheet" href="dist/css/lightbox.min.css">
+<!-- <link rel="stylesheet" href="css/component.css"> -->
+<!-- <script src="js/modernizr.custom.js"></script> -->
+<!-- <link rel="stylesheet" href="dist/css/lightbox.min.css"> -->
 <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
 <script src="js/loader_htmls.js"></script>
 
@@ -34,17 +39,13 @@
         <h3 class="text-xs-center">Hi, I'm Sheila!</h3>
 
         <p>
-          I am a second-year computer science Ph.D. student at <a href="https://www.cis.fiu.edu">Florida International University (FIU)</a> where I am advised by <a href="https://www.cis.fiu.edu/faculty-staff/pissinou-niki/">Dr. Niki Pissinou</a> and supported by the <a href="https://www.gemfellowship.org/students/2019-gem-fellows/">GEM Consortium</a> with MIT Lincoln Lab and FIU Director's Fellowship. Most recently, I was awarded a <a href="https://www.research.gov/grfp/AwardeeList.do?method=loadAwardeeList">2021 NSF Graduate Research Fellowship</a>! My research interests lie in the intersection between cybersecurity and artificial intelligence, also known as adversarial machine learning.
+          I am a third-year computer science Ph.D. student at <a href="https://www.cis.fiu.edu">Florida International University (FIU)</a> where I am advised by <a href="https://www.cis.fiu.edu/faculty-staff/pissinou-niki/">Dr. Niki Pissinou</a> and supported by the <a href="https://www.gemfellowship.org/students/2019-gem-fellows/">GEM Consortium</a> with MIT Lincoln Lab and FIU Director's Fellowship. Most recently, I was awarded a <a href="https://www.research.gov/grfp/AwardeeList.do?method=loadAwardeeList">2021 NSF Graduate Research Fellowship</a>! My research interests lie in the intersection between cybersecurity and artificial intelligence, also known as adversarial machine learning.
         </p>
 
         <p>
           I earned a B.S. in computer science and a B.S in mathematics from FIU in May 2019 [<a href="https://commencement.fiu.edu/day-of-ceremony/worlds-ahead-graduates/past-worlds-ahead-graduates/people/spring-19/sheila-alemany.html">Worlds Ahead Graduate</a>]. Throughout my undergraduate career, my research experience primarily consisted of creating reliable data management techniques for mobile wireless sensor networks. This research resulted in outstanding undergraduate research awards [<a href="https://cra.org/about/awards/outstanding-undergraduate-researcher-award/">CRA-E Finalist</a>, <a href="https://awards.cs.fiu.edu/award-ceremony-2017/">FIU SCIS</a>]. Additionally, I was fortunate enough to receive a merit-based scholarship [<a href="http://www.greatmindsinstem.org/about-us/press-release/2016/2016-Scholars-Press-Release-082916-Final.pdf">Great Minds in STEM</a>], and participated in two summer research internships at<a href="images/latest/mitll.jpg" data-lightbox="image-1" data-title="Group of interns for the Cybersecurity Division at Lincoln"> MIT Lincoln Laboratory</a>. 
-		  <!-- I also thoroughly enjoyed <a href="images/latest/DSCN7741.jpg" data-lightbox="image-1" data-title="Individual discrete mathematics tutoring session for the Academic Success Initiative program at FIU">tutoring mathematics and computer sciences courses</a> and taking <a href="images/latest/IMG_2083.JPG" data-lightbox="image-1" data-title="Don Quixote performance!">ballet classes</a>. -->
         </p>
-
-        <!-- <a href="files/sheilas_cv.pdf" class="dl">View My Resume (TBD)</a></div> -->
-        <!-- <a href="https://drive.google.com/file/d/1CCA932G3_5kHCMahoDTegNRFnQ12YAh7/view?usp=sharing" class="dl">Curriculum Vitae (CV)</a></div> -->
-      <!--About content start -->
+		
     </div>
   </div>
 </div>
@@ -52,22 +53,36 @@
   <hr>
 
 <div class="container">
-  <div class="row content publications" style="padding-left: 0;">
-    <h3 class="contactTitle text-xs-center">Publications</h3>
+  <div class="row content publications">
+    <h3 class="contactTitle text-xs-center">Research</h3>
 
     <ul>
 	  
       <li>
         <p><a href="">The dilemma between data transformations and adversarial robustness in time series application systems</a>
 			<br>To appear in AAAI's Workshop on Artificial Intelligence Safety proceedings (Safe AI 2022)
-			<br><span class="authors"><strong>Sheila Alemany</strong>, Niki Pissinou</span> 
+			<br><span class="authors"><strong>Sheila Alemany</strong>, Niki Pissinou</span>
+			
+		  <br><a href="#demo" class="paper-details" data-toggle="collapse">abstract</a>
+		  <div id="demo" class="panel-collapse collapse">
+			  <p class="abstract">Adversarial examples, or nearly indistinguishable inputs created by an attacker, significantly reduce machine learning accuracy. Theoretical evidence has shown that the high intrinsic dimensionality of datasets facilitates an adversary's ability to develop effective adversarial examples in classification models. Adjacently, the presentation of data to a learning model impacts its performance. For example, we have seen this through dimensionality reduction techniques used to aid with the generalization of features in machine learning applications. Thus, data transformation techniques go hand-in-hand with state-of-the-art learning models in decision-making applications such as intelligent medical or military systems. With this work, we explore how data transformations techniques such as feature selection, dimensionality reduction, or trend extraction techniques may impact an adversary's ability to create effective adversarial samples on a recurrent neural network. Specifically, we analyze it from the perspective of the data manifold and the presentation of its intrinsic features. Our evaluation empirically shows that feature selection and trend extraction techniques may increase the RNN's vulnerability. A data transformation technique reduces the vulnerability to adversarial examples only if it approximates the dataset's intrinsic dimension, minimizes codimension, and maintains higher manifold coverage.</p>
+		  </div> 
+		  
 		</p>
       </li>
 	  
       <li>
         <p><a href="">Jespipe: A plugin-based, open MPI framework for adversarial machine learning analysis</a> 
-			<br>To appear in 2021 IEEE International Conference on Big Data proccedings (BigData 2021)
+			<br>To appear in IEEE International Conference on Big Data proccedings (BigData 2021)
 			<br><span class="authors"><strong>Sheila Alemany</strong>, Jason Nucciarone, Niki Pissinou</span>	
+			
+		  <br><a href="#jespipe" class="paper-details" data-toggle="collapse">abstract</a><a href="https://github.com/NucciTheBoss/jespipe" class="paper-details">code</a>
+  		  <div id="jespipe" class="panel-collapse collapse">
+  			  <p class="abstract">Research is increasingly showing the tremendous vulnerability in machine learning models to seemingly undetectable adversarial inputs. One of the current limitations in adversarial machine learning research is the incredibly time-consuming testing of novel defenses against various attacks and across multiple datasets, even with high computing power. To address this limitation, we have developed Jespipe as a new plugin-based, parallel-by-design Open MPI framework that aids in evaluating the robustness of machine learning models. The plugin-based nature of this framework enables researchers to specify any pre-training data manipulations, machine learning models, adversarial models, and analysis or visualization metrics with their input Python files. Because this framework is plugin-based, a researcher can easily incorporate model implementations using popular deep learning libraries such as PyTorch, Keras, TensorFlow, Theano, or MXNet, or adversarial robustness tools such as IBM's Adversarial Robustness Toolbox or Foolbox. The parallelized nature of this framework also enables researchers to evaluate various learning or attack models with multiple datasets simultaneously by specifying all the models and datasets they would like to test with our XML control file template. Overall, Jespipe shows promising results by reducing latency in adversarial machine learning algorithm development and testing compared to traditional Jupyter notebook workflows.</p>
+  		  </div>
+		  
+		  
+		  
 		</p>
       </li>
 	  
@@ -126,16 +141,16 @@
         <!--contact form start-->
         <div class="row conrow">
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <input type="text" name="name" placeholder="Your name" class="form-control">
+            <input type="text" name="name" placeholder="Name" class="form-control">
           </div>
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <input type="email" name="_replyto" placeholder="Your email" class="form-control">
+            <input type="email" name="_replyto" placeholder="Email" class="form-control">
 			<input type="hidden" name="_subject" value="PORTFOLIO EMAIL!"/>
           </div>
         </div>
         <div class="row conrow">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <textarea placeholder="Your message" name="message" class="form-control" rows="3"></textarea>
+            <textarea placeholder="Message" name="message" class="form-control" rows="3"></textarea>
 			<input type="text" name="_gotcha" style="display:none" />
           </div>
         </div>
@@ -153,14 +168,10 @@
     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 col-md-offset-1 col-lg-offset-1 col-sm-offset-1 col-xs-offset-0 contactSide">
       <h3 class="contactTitle text-xs-center">Details</h3>
       <ul style="list-style-type: none; padding-left: 0;" class="list-unstyled contactDetails">
-        <!-- <li><i class="fa fa-map-marker"></i>Miami, Florida</li> -->
-        <!-- <li><i class="fa fa-envelope-o"></i>salem010[at]fiu[dot]edu</li> -->
 		<li><i class="fa fa-file"></i><a href="https://drive.google.com/file/d/1CCA932G3_5kHCMahoDTegNRFnQ12YAh7/view?usp=sharing">Curriculum vitae</a></li>
 		<li><i class="ai ai-google-scholar"></i><a href="https://scholar.google.com/citations?user=cKR-gFQAAAAJ&hl=en">Google Scholar page</a></li>
         <li><i class="fa fa-github"></i><a href="https://github.com/sheilaalemany">github.com/sheilaalemany</a></li>
         <li><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/sheilaalemany">linkedin.com/in/sheilaalemany</a></li>
-        <!-- <li><i class="fa fa-twitter"></i><a href="https://twitter.com/_cheilaa?lang=en" >@_cheilaa</a></li> -->
-        <!-- <li><i class="fa fa-instagram"></i><a class="contactDetails" href="https://www.instagram.com/_cheilaa/">@_cheilaa</a></li> -->
       </ul>
     </div>
     <!--contact details end-->
@@ -172,8 +183,8 @@
 
 
 <!--Javascriptfile start -->
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.js"></script>
-<script src="dist/js/lightbox-plus-jquery.min.js"></script>
+<!-- <script type="text/javascript" src="js/jquery.min.js"></script> -->
+<!-- <script type="text/javascript" src="js/bootstrap.js"></script> -->
+<!-- <script src="dist/js/lightbox-plus-jquery.min.js"></script> -->
 </body>
 </html>
