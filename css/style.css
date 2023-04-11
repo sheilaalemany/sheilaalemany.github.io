@@ -351,6 +351,10 @@ body {
 	padding-bottom: 30px;
 	text-align: center;
 }
+.footer body{
+	margin: 0;
+}
+
 .footerLink {
 	display: block;
 	text-align: center;
@@ -792,7 +796,7 @@ body {
 	9.0 About part
 ---------------------------- */
 
-a {
+.links p > a {
 	color: #009B77
 }
 a:hover {
@@ -864,6 +868,10 @@ a:hover {
 	border-radius: 15px;
 	font-weight: bold;
 	text-decoration: none;
+}
+.publications .paper-details:hover {
+	background-color: #005C46;
+	color: white;
 }
 
 .publications .paper-type-conference {
