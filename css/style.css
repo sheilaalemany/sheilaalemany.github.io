@@ -808,6 +808,14 @@ body {
 	color: #005C46;
 }
 
+/*for the papers*/
+.links > li > p > a {
+	color: #009B77
+}
+.links > li > p > a:hover {
+	color: #005C46;
+}
+
 .icon-background {
     color: black;
 	border: black;
