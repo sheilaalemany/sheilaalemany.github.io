@@ -115,7 +115,12 @@ body {
 	opacity: 1;
 }*/
 
+.topNav .dropdown-item ul {
+	display: block;
+	float: right;
+}
 .topNav .dropdown-item > li > a {
+	text-decoration: none;
 	font-size: 13px;
 	color: #000000;
 }
