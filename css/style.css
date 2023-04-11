@@ -116,11 +116,11 @@ body {
 }*/
 
 .topNav .dropdown-item a {
-	float: right;
-	color: black;
+	text-align: center;
+	color: #000000;
 }
 .topNav .dropdown-item a:hover {
-	color: red;
+	color: #cbcbcb;
 }
 
 .topNav .nav > li:hover > a {
