@@ -802,7 +802,8 @@ body {
 ---------------------------- */
 
 .links > p > a {
-	color: #009B77
+	color: #009B77;
+	text-decoration: none;
 }
 .links > p > a:hover {
 	color: #005C46;
@@ -810,7 +811,8 @@ body {
 
 /*for the papers*/
 .links > li > p > a {
-	color: #009B77
+	color: #009B77;
+	text-decoration: none;
 }
 .links > li > p > a:hover {
 	color: #005C46;
@@ -911,6 +913,7 @@ body {
 }
 .publications .paper-type-bestpaper {
 	background-color: #009B77;
+/*	background-color: #005C46;*/
 	border: none;
 	color: white;
 	font-family: 'Lato', sans-serif;
