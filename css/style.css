@@ -801,10 +801,10 @@ body {
 	9.0 About part
 ---------------------------- */
 
-.links p > a {
+p > a {
 	color: #009B77
 }
-.link p > a:hover {
+p > a:hover {
 	color: #005C46;
 }
 
