@@ -1282,7 +1282,7 @@ body {
 	margin-top: 4px;
 }
 @media (max-width: 767px) {
-	.earlier { grid-template-columns: 1fr; }
+	.publications .earlier { grid-template-columns: 1fr; }
 }
 .earlier-card {
 	display: block;
@@ -1326,5 +1326,16 @@ body {
 }
 @media (max-width: 576px) {
 	.publications ul.news li { flex-direction: column; gap: 0; }
-	.publications ul.news .news-date { flex-basis: auto; }
+	.publications ul.news .news-date { flex-basis: auto; text-align: center; }
+}
+
+/* keep paper tags and buttons in one piece */
+.publications .paper-details,
+.publications .paper-type-conference,
+.publications .paper-type-workshop,
+.publications .paper-type-bestpaper,
+.publications .paper-type-preprint {
+	white-space: nowrap;
+	display: inline-block;
+	line-height: 18px;
 }
