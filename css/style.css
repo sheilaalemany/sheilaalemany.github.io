@@ -1245,3 +1245,86 @@ body {
      margin-bottom: 50px;
   }
 }
+
+
+/* -------------------------
+	News, service and earlier-research cards (2026)
+---------------------------- */
+.publications ul.news li {
+	font-size: 15px;
+	line-height: 26px;
+	margin-bottom: 8px;
+	display: flex;
+	gap: 16px;
+}
+.publications ul.news .news-date {
+	flex: 0 0 110px;
+	white-space: nowrap;
+	font-weight: bold;
+	color: #005C46;
+	font-size: 13px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.publications ul.news a {
+	color: #009B77;
+	text-decoration: none;
+}
+.publications ul.news a:hover {
+	color: #005C46;
+}
+.publications .earlier {
+	padding-left: 0;
+	padding-right: 0;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 16px;
+	margin-top: 4px;
+}
+@media (max-width: 767px) {
+	.earlier { grid-template-columns: 1fr; }
+}
+.earlier-card {
+	display: block;
+	height: 100%;
+	border: #005C46 1.5px solid;
+	border-radius: 8px;
+	padding: 16px 18px;
+	color: #000000;
+	text-decoration: none;
+	transition: background-color 0.2s ease-in-out;
+}
+.earlier-card:hover {
+	background-color: #f0f8f5;
+	color: #000000;
+}
+.earlier-card span {
+	display: block;
+}
+.earlier-label {
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #005C46;
+}
+.earlier-title {
+	font-size: 17px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	margin: 2px 0 4px;
+	color: #009B77;
+}
+.earlier-desc {
+	font-size: 14px;
+	line-height: 22px;
+}
+.breadcrumb-back a {
+	font-size: 14px;
+	font-weight: bold;
+}
+@media (max-width: 576px) {
+	.publications ul.news li { flex-direction: column; gap: 0; }
+	.publications ul.news .news-date { flex-basis: auto; }
+}
