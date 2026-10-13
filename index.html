@@ -91,7 +91,7 @@
     <ul class="links">
 
     <li>
-      <p><a href="https://www.akbc.ws/2026/#papers">Zero-Shot Relation Classification with Large Language Models: Binary Prompting and Relevance Elicitation</a> <span class="paper-type-bestpaper">best paper nominee</span> <span class="paper-type-workshop">featured paper</span>
+      <p><a href="https://www.akbc.ws/2026/#papers">Zero-Shot Relation Classification with Large Language Models: Binary Prompting and Relevance Elicitation</a> <span class="paper-type-workshop">featured paper</span>
 		<br>Workshop on Automated Knowledge Base Construction at EMNLP (AKBC 2026)
 		<br><span class="authors"><strong>Sheila Alemany</strong>, Danielle Sullivan-Pao, Olga Simek</span>
 		<!-- TODO: add abstract and PDF link once available -->
@@ -149,6 +149,19 @@
     </div>
   </div>
 </div>
+
+<script>
+  // Mark news/service rows that repeat the previous row's date, so phones can group them.
+  document.querySelectorAll('ul.news').forEach(function (list) {
+    var prev = null;
+    list.querySelectorAll('li').forEach(function (li) {
+      var d = li.querySelector('.news-date');
+      var text = d ? d.textContent.trim() : null;
+      if (text && text === prev) li.classList.add('repeat-date');
+      prev = text;
+    });
+  });
+</script>
 
 <!-- Import footer -->
 <div data-include="footer"></div>

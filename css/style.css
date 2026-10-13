@@ -861,6 +861,7 @@ body {
  .publications ul{
 	list-style: none; 
 	padding-left: 0;
+	padding-right: 0;
 } 
 
 .publications .abstract {
@@ -1329,6 +1330,17 @@ body {
 	.publications ul.news .news-date { flex-basis: auto; text-align: center; }
 }
 
+/* tags: no left margin, so a tag that wraps to its own line lines up with the text */
+.publications .paper-type-conference,
+.publications .paper-type-workshop,
+.publications .paper-type-bestpaper,
+.publications .paper-type-preprint {
+	margin-left: 0;
+}
+/* the gap lives on the end of the title, so it disappears when a tag wraps */
+.publications ul:not(.news) li > p > a:first-child {
+	margin-right: 5px;
+}
 /* keep paper tags and buttons in one piece */
 .publications .paper-details,
 .publications .paper-type-conference,
@@ -1338,4 +1350,75 @@ body {
 	white-space: nowrap;
 	display: inline-block;
 	line-height: 18px;
+}
+
+/* phones: center everything for a cohesive single-column layout */
+@media (max-width: 576px) {
+	.content,
+	.content h3,
+	.content p,
+	.content .links.clearfix,
+	.publications ul.news .news-text,
+	.earlier-card {
+		text-align: center !important;
+	}
+	.publications .abstract,
+	.publications ul:not(.news) li,
+	.publications ul:not(.news) li p {
+		text-align: left !important;
+	}
+	.content img.float-start {
+		float: none !important;
+		display: block;
+		width: 60% !important;
+		padding-right: 0 !important;
+		margin: 0 auto 20px;
+	}
+}
+
+/* phones: group news/service rows that share a date into a bulleted list */
+@media (max-width: 576px) {
+	.publications ul.news li {
+		margin-bottom: 4px;
+	}
+	.publications ul.news li:not(.repeat-date) {
+		margin-top: 14px;
+	}
+	.publications ul.news li:first-child {
+		margin-top: 0;
+	}
+	.publications ul.news li.repeat-date .news-date {
+		display: none;
+	}
+	.publications ul.news .news-text {
+		text-align: left !important;
+		padding-left: 1em;
+		text-indent: -1em;
+	}
+	.publications ul.news .news-text::before {
+		content: "\2022\00a0\00a0";
+		color: #005C46;
+	}
+}
+
+/* phones: give the Ph.D. and undergraduate pages the same side margins as the homepage */
+@media (max-width: 576px) {
+	.subpage .container:not(footer .container) {
+		padding-left: 24px;
+		padding-right: 24px;
+	}
+}
+
+/* Ph.D. and undergraduate pages: match the homepage's space above the footer */
+.subpage .publications > ul {
+	margin-bottom: 0;
+}
+.subpage .publications > ul > li:last-child p:not(.abstract) {
+	margin-bottom: 0;
+}
+
+/* Ph.D. and undergraduate pages: line the intro text up with the publications below it */
+.subpage .content > .links.clearfix {
+	padding-left: 0;
+	padding-right: 0;
 }
